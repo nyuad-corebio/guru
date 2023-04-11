@@ -26,10 +26,6 @@ def print_hello(ds=None, **kwargs):
 
 Initiate_task = PythonOperator(task_id='Initiate_task', python_callable=print_hello, dag=dag)
 
-# rsync_archive_to_scratch_task = BashOperator(
-#     task_id="rsync_archive_to_scratch_task",
-#     bash_command='echo "Here is the message:  to {{ dag_run.conf["projname"] }}"',
-# )
 
 
 rsync_work_to_scratch_command = """
@@ -51,30 +47,5 @@ miso_samplesheet_generate_task = BashOperator(
 #    bash_command='echo "Here is the message:  {{ dag_run.conf["miso_id"] }} to {{ dag_run.conf["work_dir"] }}"',
     bash_command='echo "Here is the message: {{ dag_run.conf["work_dir"]  }} to {{ dag_run.conf["reverse_id"]  }} to {{ dag_run.conf["scratch_dir"] }} to {{ dag_run.conf["archive_dir"] }} to  {{ dag_run.conf["projname"] }}  to  {{ dag_run.conf["miso_id"] }} to {{ dag_run.conf["jira_ticket"] }} to {{ dag_run.conf["workflow"] }} to {{ dag_run.conf["adpone"] }} to {{ dag_run.conf["adptwo"] }} to {{ dag_run.conf["email_id"] }}"',
 )
-
-ensure_samplesheet_task = BashOperator(
-    task_id="ensure_samplesheet_task",
-    bash_command='echo "Here is the message: \'{{ dag_run.conf["name"] if dag_run else "qqqq" }}\' {{ dag_run.conf["miso"] }}"',
-)
-
-demux_reverse_complement_task = BashOperator(
-    task_id="demux_reverse_complement_task",
-    bash_command='echo "Here is the message: \'{{ dag_run.conf["name"] if dag_run else "qqqq" }}\' {{ dag_run.conf["miso"] }}"',
-)
-
-adapter_string_replace_task = BashOperator(
-    task_id="adapter_string_replace_task",
-    bash_command='echo "Here is the message: \'{{ dag_run.conf["name"] if dag_run else "qqqq" }}\' {{ dag_run.conf["miso"] }}"',
-)
-
-
-archive_run_dir_task = BashOperator(
-    task_id="archive_run_dir_task",
-    bash_command='echo "Here is the message: \'{{ dag_run.conf["name"] if dag_run else "qqqq" }}\' {{ dag_run.conf["miso"] }}"',
-)
-
-
-#rsync_archive_to_scratch_task >> miso_samplesheet_generate_task >> ensure_samplesheet_task >> demux_reverse_complement_task >> adapter_string_replace_task  >> adapter_string_replace_task >> validate_samplenames_task >> demultiplex_task >> demultiplex_task >> submit_qc_workflow_task >> email_sent_task >> archive_run_dir_task
-#rsync_archive_to_scratch_task >> [miso_samplesheet_generate_task,ensure_samplesheet_task,demux_reverse_complement_task,adapter_string_replace_task,adapter_string_replace_task,validate_samplenames_task,demultiplex_task,submit_qc_workflow_task,email_sent_task,archive_run_dir_task]
 
 Initiate_task >> rsync_work_to_scratch_task >> miso_samplesheet_generate_task

@@ -29,7 +29,6 @@ x-airflow-common:
     - ./keys:/home/airflow/.ssh
     - ./scripts:/opt/airflow/scripts
     - ./pkgs:/opt/airflow/pkgs
-      #    - ./airflow.cfg:/opt/airflow/airflow.cfg
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
