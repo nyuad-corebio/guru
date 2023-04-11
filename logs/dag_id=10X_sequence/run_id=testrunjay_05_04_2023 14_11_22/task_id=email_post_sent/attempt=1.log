@@ -1,0 +1,31 @@
+[2023-04-05T14:11:45.471+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10X_sequence.email_post_sent testrunjay_05_04_2023 14_11_22 [queued]>
+[2023-04-05T14:11:45.506+0000] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10X_sequence.email_post_sent testrunjay_05_04_2023 14_11_22 [queued]>
+[2023-04-05T14:11:45.506+0000] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-05T14:11:45.507+0000] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-05T14:11:45.507+0000] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-05T14:11:45.554+0000] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): email_post_sent> on 2023-04-05 14:11:25.015863+00:00
+[2023-04-05T14:11:45.562+0000] {standard_task_runner.py:55} INFO - Started process 400 to run task
+[2023-04-05T14:11:45.567+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '10X_sequence', 'email_post_sent', 'testrunjay_05_04_2023 14_11_22', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/10X_sequence_dag.py', '--cfg-path', '/tmp/tmpgaj8_s9m']
+[2023-04-05T14:11:45.568+0000] {standard_task_runner.py:83} INFO - Job 9: Subtask email_post_sent
+[2023-04-05T14:11:45.705+0000] {task_command.py:389} INFO - Running <TaskInstance: 10X_sequence.email_post_sent testrunjay_05_04_2023 14_11_22 [running]> on host 0ffbe75efca4
+[2023-04-05T14:11:45.924+0000] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=10X_sequence
+AIRFLOW_CTX_TASK_ID=email_post_sent
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-05T14:11:25.015863+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=testrunjay_05_04_2023 14_11_22
+[2023-04-05T14:11:45.945+0000] {base.py:73} INFO - Using connection ID '***_docker_ssh' for task execution.
+[2023-04-05T14:11:45.947+0000] {ssh.py:299} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-04-05T14:11:45.987+0000] {transport.py:1873} INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+[2023-04-05T14:11:46.441+0000] {transport.py:1873} INFO - Auth banner: b'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n           WARNING:  UNAUTHORIZED PERSONS ........ DO NOT PROCEED\n           ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~\n This computer system is operated by New York University (NYU) and may be\n accessed only by authorized users.  Authorized users are granted specific,\n limited privileges in their use of the system.  The data and programs\n in this system may not be accessed, copied, modified, or disclosed without\n prior approval of NYU.  Access and use, or causing access and use, of this\n computer system by anyone other than as permitted by NYU are strictly pro-\n hibited by NYU and by law and may subject an unauthorized user, including\n unauthorized employees, to criminal and civil penalties as well as NYU-\n initiated disciplinary proceedings.  The use of this system is routinely\n monitored and recorded, and anyone accessing this system consents to such\n monitoring and recording.  Questions regarding this access policy should be\n directed (by e-mail) to AskITS@nyu.edu or (by phone) to 212-998-3333.\n Questions on other topics should be directed to COMMENT (by email) or to\n 212-998-3333 by phone.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n'
+[2023-04-05T14:11:46.442+0000] {transport.py:1873} INFO - Authentication (publickey) successful!
+[2023-04-05T14:11:46.722+0000] {sftp.py:169} INFO - [chan 0] Opened sftp connection (server version 3)
+[2023-04-05T14:11:46.732+0000] {sftp.py:169} INFO - [chan 0] sftp session closed.
+[2023-04-05T14:11:46.751+0000] {base.py:73} INFO - Using connection ID '***_docker_email' for task execution.
+[2023-04-05T14:11:50.333+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-05T14:11:50.364+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=10X_sequence, task_id=email_post_sent, execution_date=20230405T141125, start_date=20230405T141145, end_date=20230405T141150
+[2023-04-05T14:11:50.432+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-05T14:11:50.499+0000] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

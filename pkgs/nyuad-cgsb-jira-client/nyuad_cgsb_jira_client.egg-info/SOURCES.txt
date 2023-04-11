@@ -1,0 +1,10 @@
+setup.py
+nyuad_cgsb_jira_client/__init__.py
+nyuad_cgsb_jira_client/jira_client.py
+nyuad_cgsb_jira_client/test.py
+nyuad_cgsb_jira_client/test_easybuild.py
+nyuad_cgsb_jira_client.egg-info/PKG-INFO
+nyuad_cgsb_jira_client.egg-info/SOURCES.txt
+nyuad_cgsb_jira_client.egg-info/dependency_links.txt
+nyuad_cgsb_jira_client.egg-info/not-zip-safe
+nyuad_cgsb_jira_client.egg-info/top_level.txt

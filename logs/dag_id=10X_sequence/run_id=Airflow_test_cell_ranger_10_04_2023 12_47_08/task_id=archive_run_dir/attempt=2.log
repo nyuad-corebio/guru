@@ -1,0 +1,32 @@
+[2023-04-10T17:18:41.003+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10X_sequence.archive_run_dir Airflow_test_cell_ranger_10_04_2023 12_47_08 [queued]>
+[2023-04-10T17:18:41.035+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10X_sequence.archive_run_dir Airflow_test_cell_ranger_10_04_2023 12_47_08 [queued]>
+[2023-04-10T17:18:41.035+0400] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T17:18:41.035+0400] {taskinstance.py:1289} INFO - Starting attempt 2 of 4
+[2023-04-10T17:18:41.036+0400] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T17:18:41.083+0400] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): archive_run_dir> on 2023-04-10 08:47:10.123376+00:00
+[2023-04-10T17:18:41.098+0400] {standard_task_runner.py:55} INFO - Started process 12055 to run task
+[2023-04-10T17:18:41.107+0400] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '10X_sequence', 'archive_run_dir', 'Airflow_test_cell_ranger_10_04_2023 12_47_08', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/10X_sequence_dag.py', '--cfg-path', '/tmp/tmpy02vttrv']
+[2023-04-10T17:18:41.108+0400] {standard_task_runner.py:83} INFO - Job 30: Subtask archive_run_dir
+[2023-04-10T17:18:41.315+0400] {task_command.py:389} INFO - Running <TaskInstance: 10X_sequence.archive_run_dir Airflow_test_cell_ranger_10_04_2023 12_47_08 [running]> on host e286faa700a5
+[2023-04-10T17:18:41.556+0400] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=10X_sequence
+AIRFLOW_CTX_TASK_ID=archive_run_dir
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-10T08:47:10.123376+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=Airflow_test_cell_ranger_10_04_2023 12_47_08
+[2023-04-10T17:18:41.579+0400] {base.py:73} INFO - Using connection ID '***_docker_ssh' for task execution.
+[2023-04-10T17:18:41.582+0400] {ssh.py:299} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-04-10T17:18:41.595+0400] {transport.py:1873} INFO - Connected (version 2.0, client OpenSSH_8.0)
+[2023-04-10T17:18:41.860+0400] {transport.py:1873} INFO - Authentication (publickey) successful!
+[2023-04-10T17:18:41.862+0400] {ssh_helpers.py:43} INFO - Executing command: rsync -av  /scratch/gencore/novaseq/221130_A00534_0114_BHHYF3DRX2 /archive/gencore/novaseq/
+[2023-04-10T17:18:42.593+0400] {ssh_helpers.py:75} INFO - sending incremental file list
+[2023-04-10T17:18:44.342+0400] {ssh_helpers.py:75} INFO - sent 133,091 bytes  received 916 bytes  53,602.80 bytes/sec
+total size is 261,363,575,855  speedup is 1,950,372.56
+[2023-04-10T17:18:44.353+0400] {ssh_helpers.py:94} INFO - Command exited with exitcode 0
+[2023-04-10T17:18:44.354+0400] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-10T17:18:44.389+0400] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=10X_sequence, task_id=archive_run_dir, execution_date=20230410T084710, start_date=20230410T131841, end_date=20230410T131844
+[2023-04-10T17:18:44.443+0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-10T17:18:44.498+0400] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

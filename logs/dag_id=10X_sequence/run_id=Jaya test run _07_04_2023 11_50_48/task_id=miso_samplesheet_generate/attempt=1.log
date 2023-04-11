@@ -1,0 +1,30 @@
+[2023-04-07T11:51:01.271+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10X_sequence.miso_samplesheet_generate Jaya test run _07_04_2023 11_50_48 [queued]>
+[2023-04-07T11:51:01.281+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10X_sequence.miso_samplesheet_generate Jaya test run _07_04_2023 11_50_48 [queued]>
+[2023-04-07T11:51:01.281+0400] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T11:51:01.281+0400] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-07T11:51:01.281+0400] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T11:51:01.297+0400] {taskinstance.py:1309} INFO - Executing <Task(SSHOperator): miso_samplesheet_generate> on 2023-04-07 07:50:49.049088+00:00
+[2023-04-07T11:51:01.303+0400] {standard_task_runner.py:55} INFO - Started process 277 to run task
+[2023-04-07T11:51:01.307+0400] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '10X_sequence', 'miso_samplesheet_generate', 'Jaya test run _07_04_2023 11_50_48', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/10X_sequence_dag.py', '--cfg-path', '/tmp/tmp5gwa5gq7']
+[2023-04-07T11:51:01.307+0400] {standard_task_runner.py:83} INFO - Job 7: Subtask miso_samplesheet_generate
+[2023-04-07T11:51:01.391+0400] {task_command.py:389} INFO - Running <TaskInstance: 10X_sequence.miso_samplesheet_generate Jaya test run _07_04_2023 11_50_48 [running]> on host fc743c57cc60
+[2023-04-07T11:51:01.479+0400] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=10X_sequence
+AIRFLOW_CTX_TASK_ID=miso_samplesheet_generate
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-07T07:50:49.049088+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=Jaya test run _07_04_2023 11_50_48
+[2023-04-07T11:51:01.479+0400] {ssh.py:135} INFO - Creating ssh_client
+[2023-04-07T11:51:01.480+0400] {ssh.py:299} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-04-07T11:51:01.518+0400] {transport.py:1873} INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+[2023-04-07T11:51:01.772+0400] {transport.py:1873} INFO - Auth banner: b'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n           WARNING:  UNAUTHORIZED PERSONS ........ DO NOT PROCEED\n           ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~\n This computer system is operated by New York University (NYU) and may be\n accessed only by authorized users.  Authorized users are granted specific,\n limited privileges in their use of the system.  The data and programs\n in this system may not be accessed, copied, modified, or disclosed without\n prior approval of NYU.  Access and use, or causing access and use, of this\n computer system by anyone other than as permitted by NYU are strictly pro-\n hibited by NYU and by law and may subject an unauthorized user, including\n unauthorized employees, to criminal and civil penalties as well as NYU-\n initiated disciplinary proceedings.  The use of this system is routinely\n monitored and recorded, and anyone accessing this system consents to such\n monitoring and recording.  Questions regarding this access policy should be\n directed (by e-mail) to AskITS@nyu.edu or (by phone) to 212-998-3333.\n Questions on other topics should be directed to COMMENT (by email) or to\n 212-998-3333 by phone.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n'
+[2023-04-07T11:51:01.772+0400] {transport.py:1873} INFO - Authentication (publickey) successful!
+[2023-04-07T11:51:01.773+0400] {ssh.py:476} INFO - Running command: 
+        cd "/scratch/gencore/testdir/jayaback/"
+        python miso.py 35
+[2023-04-07T11:51:02.894+0400] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=10X_sequence, task_id=miso_samplesheet_generate, execution_date=20230407T075049, start_date=20230407T075101, end_date=20230407T075102
+[2023-04-07T11:51:02.962+0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-07T11:51:03.033+0400] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

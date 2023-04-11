@@ -1,0 +1,1030 @@
+[2023-04-11T10:14:04.520+0400] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:14:04.521+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:14:04.521+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:14:04.521+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:14:04.523+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:14:04.537+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.020 seconds
+[2023-04-11T10:14:34.882+0400] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:14:34.883+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:14:34.885+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:14:34.885+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:14:34.889+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:14:34.926+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:15:05.439+0400] {processor.py:153} INFO - Started process (PID=74) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:15:05.441+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:15:05.442+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:15:05.442+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:15:05.446+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:15:05.483+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:15:35.996+0400] {processor.py:153} INFO - Started process (PID=87) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:15:35.998+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:15:36.000+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:15:35.999+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:15:36.004+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:15:36.044+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:16:06.555+0400] {processor.py:153} INFO - Started process (PID=100) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:16:06.557+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:16:06.558+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:16:06.558+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:16:06.562+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:16:06.605+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.059 seconds
+[2023-04-11T10:16:37.143+0400] {processor.py:153} INFO - Started process (PID=113) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:16:37.144+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:16:37.146+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:16:37.146+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:16:37.150+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:16:37.189+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:17:07.672+0400] {processor.py:153} INFO - Started process (PID=126) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:17:07.673+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:17:07.674+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:17:07.674+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:17:07.675+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:17:07.690+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.021 seconds
+[2023-04-11T10:17:38.077+0400] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:17:38.078+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:17:38.080+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:17:38.080+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:17:38.085+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:17:38.126+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.059 seconds
+[2023-04-11T10:18:08.902+0400] {processor.py:153} INFO - Started process (PID=153) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:18:08.904+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:18:08.906+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:18:08.906+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:18:08.910+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:18:08.951+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:18:39.468+0400] {processor.py:153} INFO - Started process (PID=167) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:18:39.469+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:18:39.471+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:18:39.471+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:18:39.475+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:18:39.514+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:19:10.014+0400] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:19:10.015+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:19:10.017+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:19:10.017+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:19:10.021+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:19:10.060+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:19:40.505+0400] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:19:40.507+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:19:40.509+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:19:40.508+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:19:40.513+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:19:40.550+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:20:10.953+0400] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:20:10.955+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:20:10.957+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:20:10.957+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:20:10.961+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:20:10.998+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T10:20:41.420+0400] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:20:41.421+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:20:41.423+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:20:41.422+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:20:41.426+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:20:41.464+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:21:11.966+0400] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:21:11.968+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:21:11.970+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:21:11.969+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:21:11.974+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:21:12.010+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:21:42.495+0400] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:21:42.496+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:21:42.498+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:21:42.497+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:21:42.502+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:21:42.539+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:22:13.047+0400] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:22:13.048+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:22:13.050+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:22:13.050+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:22:13.054+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:22:13.095+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:22:43.609+0400] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:22:43.610+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:22:43.612+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:22:43.612+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:22:43.616+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:22:43.657+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:23:18.620+0400] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:23:18.621+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:23:18.622+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:23:18.622+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:23:18.623+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:23:18.640+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.024 seconds
+[2023-04-11T10:23:49.278+0400] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:23:49.280+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:23:49.281+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:23:49.281+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:23:49.285+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:23:49.311+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.043 seconds
+[2023-04-11T10:24:20.026+0400] {processor.py:153} INFO - Started process (PID=77) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:24:20.028+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:24:20.030+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:24:20.030+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:24:20.034+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:24:20.072+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:24:50.772+0400] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:24:50.773+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:24:50.775+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:24:50.775+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:24:50.779+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:24:50.807+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.045 seconds
+[2023-04-11T10:25:21.519+0400] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:25:21.522+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:25:21.523+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:25:21.523+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:25:21.528+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:25:21.565+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:25:51.948+0400] {processor.py:153} INFO - Started process (PID=116) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:25:51.948+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:25:51.949+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:25:51.949+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:25:51.951+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:25:51.970+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.026 seconds
+[2023-04-11T10:26:22.787+0400] {processor.py:153} INFO - Started process (PID=129) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:26:22.788+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:26:22.789+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:26:22.789+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:26:22.790+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:26:22.819+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.036 seconds
+[2023-04-11T10:26:53.520+0400] {processor.py:153} INFO - Started process (PID=142) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:26:53.521+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:26:53.522+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:26:53.522+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:26:53.523+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:26:53.543+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.026 seconds
+[2023-04-11T10:27:24.270+0400] {processor.py:153} INFO - Started process (PID=155) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:27:24.272+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:27:24.274+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:27:24.274+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:27:24.278+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:27:24.314+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:27:55.017+0400] {processor.py:153} INFO - Started process (PID=168) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:27:55.018+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:27:55.020+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:27:55.020+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:27:55.023+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:27:55.054+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.044 seconds
+[2023-04-11T10:28:37.678+0400] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:28:37.679+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:28:37.680+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:28:37.680+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:28:37.681+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:28:37.700+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.025 seconds
+[2023-04-11T10:29:08.296+0400] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:29:08.298+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:29:08.300+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:29:08.299+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:29:08.304+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:29:08.329+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.043 seconds
+[2023-04-11T10:29:38.740+0400] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:29:38.742+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:29:38.744+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:29:38.744+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:29:38.748+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:29:38.786+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:30:09.297+0400] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:30:09.299+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:30:09.300+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:30:09.300+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:30:09.304+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:30:09.340+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:30:39.836+0400] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:30:39.838+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:30:39.840+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:30:39.839+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:30:39.844+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:30:39.881+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:31:10.502+0400] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:31:10.503+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:31:10.504+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:31:10.504+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:31:10.505+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:31:10.520+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.021 seconds
+[2023-04-11T10:31:40.989+0400] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:31:40.992+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:31:40.993+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:31:40.993+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:31:40.997+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:31:41.033+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:32:11.602+0400] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:32:11.604+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:32:11.606+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:32:11.606+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:32:11.610+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:32:11.649+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:32:42.163+0400] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:32:42.166+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:32:42.168+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:32:42.168+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:32:42.173+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:32:42.214+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.061 seconds
+[2023-04-11T10:33:12.696+0400] {processor.py:153} INFO - Started process (PID=167) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:33:12.698+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:33:12.700+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:33:12.699+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:33:12.704+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:33:12.747+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.061 seconds
+[2023-04-11T10:33:43.181+0400] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:33:43.183+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:33:43.185+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:33:43.185+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:33:43.189+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:33:43.226+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:34:13.698+0400] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:34:13.700+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:34:13.702+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:34:13.701+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:34:13.706+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:34:13.743+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:34:44.190+0400] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:34:44.192+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:34:44.194+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:34:44.194+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:34:44.198+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:34:44.237+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:35:14.619+0400] {processor.py:153} INFO - Started process (PID=220) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:35:14.621+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:35:14.624+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:35:14.623+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:35:14.629+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:35:14.651+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.041 seconds
+[2023-04-11T10:35:45.049+0400] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:35:45.051+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:35:45.053+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:35:45.053+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:35:45.057+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:35:45.095+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:36:15.573+0400] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:36:15.575+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:36:15.577+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:36:15.576+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:36:15.581+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:36:15.619+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:36:46.110+0400] {processor.py:153} INFO - Started process (PID=259) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:36:46.113+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:36:46.115+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:36:46.114+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:36:46.119+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:36:46.158+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.058 seconds
+[2023-04-11T10:37:16.532+0400] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:37:16.533+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:37:16.533+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:37:16.533+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:37:16.535+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:37:16.553+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.025 seconds
+[2023-04-11T10:37:46.940+0400] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:37:46.942+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:37:46.944+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:37:46.944+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:37:46.949+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:37:46.986+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:38:17.385+0400] {processor.py:153} INFO - Started process (PID=298) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:38:17.386+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:38:17.387+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:38:17.386+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:38:17.388+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:38:17.404+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.023 seconds
+[2023-04-11T10:38:47.892+0400] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:38:47.894+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:38:47.896+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:38:47.896+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:38:47.900+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:38:47.939+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:39:18.545+0400] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:39:18.547+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:39:18.549+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:39:18.549+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:39:18.553+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:39:18.591+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:39:49.133+0400] {processor.py:153} INFO - Started process (PID=337) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:39:49.135+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:39:49.137+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:39:49.136+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:39:49.142+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:39:49.179+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:40:19.649+0400] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:40:19.652+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:40:19.654+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:40:19.654+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:40:19.658+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:40:19.695+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:40:50.249+0400] {processor.py:153} INFO - Started process (PID=364) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:40:50.251+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:40:50.253+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:40:50.253+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:40:50.257+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:40:50.295+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:41:20.833+0400] {processor.py:153} INFO - Started process (PID=377) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:41:20.835+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:41:20.837+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:41:20.837+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:41:20.842+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:41:20.880+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:41:51.388+0400] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:41:51.390+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:41:51.392+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:41:51.392+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:41:51.396+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:41:51.435+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:42:22.170+0400] {processor.py:153} INFO - Started process (PID=403) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:42:22.172+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:42:22.174+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:42:22.173+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:42:22.178+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:42:22.213+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:42:52.626+0400] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:42:52.628+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:42:52.630+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:42:52.630+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:42:52.634+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:42:52.672+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:43:23.207+0400] {processor.py:153} INFO - Started process (PID=429) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:43:23.209+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:43:23.211+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:43:23.211+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:43:23.215+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:43:23.251+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T10:43:53.817+0400] {processor.py:153} INFO - Started process (PID=442) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:43:53.819+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:43:53.821+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:43:53.820+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:43:53.825+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:43:53.864+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:44:24.369+0400] {processor.py:153} INFO - Started process (PID=455) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:44:24.370+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:44:24.372+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:44:24.372+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:44:24.376+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:44:24.415+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:44:54.956+0400] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:44:54.958+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:44:54.960+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:44:54.960+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:44:54.964+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:44:54.987+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.041 seconds
+[2023-04-11T10:45:25.487+0400] {processor.py:153} INFO - Started process (PID=481) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:45:25.489+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:45:25.491+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:45:25.491+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:45:25.495+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:45:25.531+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:45:56.021+0400] {processor.py:153} INFO - Started process (PID=494) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:45:56.023+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:45:56.024+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:45:56.024+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:45:56.028+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:45:56.052+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.040 seconds
+[2023-04-11T10:46:26.745+0400] {processor.py:153} INFO - Started process (PID=507) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:46:26.747+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:46:26.749+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:46:26.748+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:46:26.753+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:46:26.794+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.060 seconds
+[2023-04-11T10:46:57.205+0400] {processor.py:153} INFO - Started process (PID=521) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:46:57.207+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:46:57.209+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:46:57.208+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:46:57.213+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:46:57.251+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T10:47:27.742+0400] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:47:27.744+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:47:27.746+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:47:27.746+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:47:27.750+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:47:27.788+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:47:58.281+0400] {processor.py:153} INFO - Started process (PID=547) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:47:58.283+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:47:58.285+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:47:58.285+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:47:58.289+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:47:58.327+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:48:28.860+0400] {processor.py:153} INFO - Started process (PID=560) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:48:28.862+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:48:28.864+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:48:28.863+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:48:28.868+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:48:28.905+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:48:59.446+0400] {processor.py:153} INFO - Started process (PID=573) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:48:59.447+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:48:59.449+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:48:59.449+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:48:59.453+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:48:59.490+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T10:49:29.990+0400] {processor.py:153} INFO - Started process (PID=587) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:49:29.991+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:49:29.992+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:49:29.992+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:49:29.993+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:49:30.011+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.024 seconds
+[2023-04-11T10:49:51.306+0400] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:49:51.307+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:49:51.307+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:49:51.307+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:49:51.309+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:49:51.324+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.021 seconds
+[2023-04-11T10:50:21.811+0400] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:50:21.813+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:50:21.815+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:50:21.814+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:50:21.819+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:50:21.857+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:50:52.392+0400] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:50:52.394+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:50:52.396+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:50:52.396+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:50:52.400+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:50:52.437+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T10:51:22.983+0400] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:51:22.985+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:51:22.987+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:51:22.987+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:51:22.991+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:51:23.028+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:51:53.538+0400] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:51:53.539+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:51:53.540+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:51:53.539+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:51:53.541+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:51:53.575+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.044 seconds
+[2023-04-11T10:52:24.094+0400] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:52:24.095+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:52:24.096+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:52:24.095+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:52:24.097+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:52:24.116+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.025 seconds
+[2023-04-11T10:52:41.892+0400] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:52:41.893+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:52:41.894+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:52:41.894+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:52:41.896+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:52:41.915+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.027 seconds
+[2023-04-11T10:53:12.337+0400] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:53:12.339+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:53:12.341+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:53:12.341+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:53:12.346+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:53:12.383+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:53:43.014+0400] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:53:43.016+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:53:43.018+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:53:43.017+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:53:43.022+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:53:43.060+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T10:54:13.482+0400] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:54:13.484+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:54:13.486+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:54:13.486+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:54:13.490+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:54:13.528+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:54:44.045+0400] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:54:44.047+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:54:44.049+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:54:44.049+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:54:44.053+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:54:44.089+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:55:14.544+0400] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:55:14.545+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:55:14.546+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:55:14.546+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:55:14.547+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:55:14.564+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.024 seconds
+[2023-04-11T10:55:45.409+0400] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:55:45.411+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:55:45.412+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:55:45.412+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:55:45.415+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:55:45.443+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.041 seconds
+[2023-04-11T10:56:16.160+0400] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:56:16.162+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:56:16.163+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:56:16.163+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:56:16.166+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:56:16.192+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.039 seconds
+[2023-04-11T10:56:58.730+0400] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:56:58.731+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:56:58.732+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:56:58.732+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:56:58.735+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:56:58.766+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.042 seconds
+[2023-04-11T10:57:29.235+0400] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:57:29.237+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:57:29.240+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:57:29.239+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:57:29.245+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:57:29.281+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:57:59.901+0400] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:57:59.903+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:57:59.905+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:57:59.904+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:57:59.909+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:57:59.947+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:58:30.387+0400] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:58:30.389+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:58:30.391+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:58:30.390+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:58:30.395+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:58:30.433+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:59:00.929+0400] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:59:00.931+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:59:00.933+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:59:00.932+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:59:00.937+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:59:00.974+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T10:59:31.417+0400] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:59:31.418+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T10:59:31.419+0400] {logging_mixin.py:137} INFO - [2023-04-11T10:59:31.418+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:59:31.420+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T10:59:31.438+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.025 seconds
+[2023-04-11T11:00:11.676+0400] {processor.py:153} INFO - Started process (PID=50) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:00:11.677+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:00:11.677+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:00:11.677+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:00:11.679+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:00:11.696+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.024 seconds
+[2023-04-11T11:00:42.324+0400] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:00:42.325+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:00:42.327+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:00:42.326+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:00:42.330+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:00:42.368+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.051 seconds
+[2023-04-11T11:01:13.055+0400] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:01:13.057+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:01:13.058+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:01:13.058+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:01:13.061+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:01:13.099+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.052 seconds
+[2023-04-11T11:01:43.802+0400] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:01:43.804+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:01:43.805+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:01:43.805+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:01:43.808+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:01:43.846+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.051 seconds
+[2023-04-11T11:02:14.543+0400] {processor.py:153} INFO - Started process (PID=102) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:02:14.545+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:02:14.547+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:02:14.547+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:02:14.551+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:02:14.572+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.038 seconds
+[2023-04-11T11:02:44.926+0400] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:02:44.927+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:02:44.928+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:02:44.928+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:02:44.931+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:02:44.953+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.034 seconds
+[2023-04-11T11:03:15.817+0400] {processor.py:153} INFO - Started process (PID=128) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:03:15.819+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:03:15.821+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:03:15.820+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:03:15.825+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:03:15.863+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:03:46.552+0400] {processor.py:153} INFO - Started process (PID=141) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:03:46.553+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:03:46.554+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:03:46.554+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:03:46.557+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:03:46.594+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.048 seconds
+[2023-04-11T11:04:17.296+0400] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:04:17.298+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:04:17.300+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:04:17.300+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:04:17.304+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:04:17.339+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.052 seconds
+[2023-04-11T11:04:48.041+0400] {processor.py:153} INFO - Started process (PID=167) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:04:48.042+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:04:48.044+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:04:48.044+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:04:48.048+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:04:48.073+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.040 seconds
+[2023-04-11T11:05:18.798+0400] {processor.py:153} INFO - Started process (PID=180) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:05:18.801+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:05:18.802+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:05:18.802+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:05:18.806+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:05:18.845+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:05:49.586+0400] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:05:49.588+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:05:49.589+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:05:49.589+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:05:49.592+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:05:49.625+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.047 seconds
+[2023-04-11T11:06:20.365+0400] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:06:20.367+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:06:20.369+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:06:20.369+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:06:20.373+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:06:20.411+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:06:51.080+0400] {processor.py:153} INFO - Started process (PID=219) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:06:51.081+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:06:51.083+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:06:51.083+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:06:51.087+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:06:51.109+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.039 seconds
+[2023-04-11T11:07:21.806+0400] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:07:21.808+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:07:21.810+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:07:21.809+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:07:21.814+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:07:21.852+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:07:29.982+0400] {processor.py:153} INFO - Started process (PID=235) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:07:29.984+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:07:29.986+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:07:29.986+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:07:29.993+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:07:30.030+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.058 seconds
+[2023-04-11T11:08:00.740+0400] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:08:00.742+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:08:00.744+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:08:00.743+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:08:00.748+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:08:00.786+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:08:31.508+0400] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:08:31.510+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:08:31.511+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:08:31.511+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:08:31.515+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:08:31.553+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:09:02.261+0400] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:09:02.263+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:09:02.264+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:09:02.264+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:09:02.269+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:09:02.306+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:09:32.821+0400] {processor.py:153} INFO - Started process (PID=287) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:09:32.823+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:09:32.825+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:09:32.825+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:09:32.829+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:09:32.867+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:10:03.531+0400] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:10:03.533+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:10:03.535+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:10:03.534+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:10:03.539+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:10:03.577+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:10:34.226+0400] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:10:34.228+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:10:34.230+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:10:34.230+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:10:34.234+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:10:34.273+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:11:05.002+0400] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:11:05.004+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:11:05.006+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:11:05.006+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:11:05.010+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:11:05.045+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:11:35.753+0400] {processor.py:153} INFO - Started process (PID=347) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:11:35.755+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:11:35.757+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:11:35.757+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:11:35.761+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:11:35.797+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:12:06.504+0400] {processor.py:153} INFO - Started process (PID=360) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:12:06.507+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:12:06.509+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:12:06.509+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:12:06.515+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:12:06.544+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.049 seconds
+[2023-04-11T11:12:37.260+0400] {processor.py:153} INFO - Started process (PID=373) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:12:37.262+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:12:37.264+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:12:37.263+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:12:37.268+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:12:37.309+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.061 seconds
+[2023-04-11T11:13:07.918+0400] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:13:07.920+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:13:07.922+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:13:07.922+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:13:07.927+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:13:07.967+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.059 seconds
+[2023-04-11T11:13:38.644+0400] {processor.py:153} INFO - Started process (PID=399) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:13:38.646+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:13:38.648+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:13:38.648+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:13:38.652+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:13:38.692+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.058 seconds
+[2023-04-11T11:14:09.401+0400] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:14:09.403+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:14:09.405+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:14:09.405+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:14:09.410+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:14:09.448+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:14:40.142+0400] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:14:40.144+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:14:40.146+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:14:40.146+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:14:40.151+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:14:40.189+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:15:10.872+0400] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:15:10.874+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:15:10.876+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:15:10.876+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:15:10.881+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:15:10.919+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:15:41.652+0400] {processor.py:153} INFO - Started process (PID=452) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:15:41.654+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:15:41.656+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:15:41.656+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:15:41.660+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:15:41.698+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:16:12.228+0400] {processor.py:153} INFO - Started process (PID=465) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:16:12.230+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:16:12.233+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:16:12.232+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:16:12.237+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:16:12.275+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:16:42.853+0400] {processor.py:153} INFO - Started process (PID=478) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:16:42.855+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:16:42.857+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:16:42.857+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:16:42.861+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:16:42.899+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:17:13.636+0400] {processor.py:153} INFO - Started process (PID=491) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:17:13.639+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:17:13.641+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:17:13.640+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:17:13.645+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:17:13.683+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:17:44.383+0400] {processor.py:153} INFO - Started process (PID=505) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:17:44.385+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:17:44.387+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:17:44.386+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:17:44.391+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:17:44.429+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:18:15.144+0400] {processor.py:153} INFO - Started process (PID=518) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:18:15.145+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:18:15.146+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:18:15.146+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:18:15.148+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:18:15.182+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.041 seconds
+[2023-04-11T11:18:45.639+0400] {processor.py:153} INFO - Started process (PID=531) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:18:45.641+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:18:45.643+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:18:45.642+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:18:45.647+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:18:45.685+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:19:16.287+0400] {processor.py:153} INFO - Started process (PID=544) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:19:16.289+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:19:16.291+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:19:16.290+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:19:16.295+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:19:16.333+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:19:47.016+0400] {processor.py:153} INFO - Started process (PID=557) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:19:47.017+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:19:47.018+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:19:47.018+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:19:47.019+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:19:47.036+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.024 seconds
+[2023-04-11T11:20:17.763+0400] {processor.py:153} INFO - Started process (PID=570) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:20:17.765+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:20:17.767+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:20:17.767+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:20:17.771+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:20:17.810+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:20:48.418+0400] {processor.py:153} INFO - Started process (PID=583) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:20:48.419+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:20:48.421+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:20:48.421+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:20:48.425+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:20:48.463+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:21:19.166+0400] {processor.py:153} INFO - Started process (PID=596) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:21:19.168+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:21:19.170+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:21:19.170+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:21:19.174+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:21:19.213+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:21:49.904+0400] {processor.py:153} INFO - Started process (PID=609) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:21:49.906+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:21:49.908+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:21:49.907+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:21:49.912+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:21:49.951+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:22:20.649+0400] {processor.py:153} INFO - Started process (PID=622) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:22:20.651+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:22:20.653+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:22:20.653+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:22:20.657+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:22:20.697+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.058 seconds
+[2023-04-11T11:22:51.408+0400] {processor.py:153} INFO - Started process (PID=635) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:22:51.410+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:22:51.412+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:22:51.411+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:22:51.416+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:22:51.455+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:23:22.073+0400] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:23:22.075+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:23:22.077+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:23:22.076+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:23:22.081+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:23:22.118+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:23:52.775+0400] {processor.py:153} INFO - Started process (PID=662) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:23:52.777+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:23:52.779+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:23:52.779+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:23:52.783+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:23:52.820+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:24:23.541+0400] {processor.py:153} INFO - Started process (PID=675) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:24:23.543+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:24:23.545+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:24:23.545+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:24:23.551+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:24:23.588+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:24:54.110+0400] {processor.py:153} INFO - Started process (PID=688) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:24:54.112+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:24:54.114+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:24:54.113+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:24:54.118+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:24:54.153+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:25:24.936+0400] {processor.py:153} INFO - Started process (PID=701) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:25:24.938+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:25:24.940+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:25:24.940+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:25:24.944+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:25:24.982+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:25:55.628+0400] {processor.py:153} INFO - Started process (PID=714) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:25:55.630+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:25:55.632+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:25:55.632+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:25:55.636+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:25:55.675+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:26:26.421+0400] {processor.py:153} INFO - Started process (PID=727) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:26:26.423+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:26:26.425+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:26:26.425+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:26:26.429+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:26:26.467+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:26:57.151+0400] {processor.py:153} INFO - Started process (PID=740) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:26:57.153+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:26:57.155+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:26:57.155+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:26:57.159+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:26:57.196+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:27:27.900+0400] {processor.py:153} INFO - Started process (PID=753) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:27:27.902+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:27:27.904+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:27:27.904+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:27:27.908+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:27:27.946+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:27:58.667+0400] {processor.py:153} INFO - Started process (PID=766) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:27:58.668+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:27:58.670+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:27:58.670+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:27:58.674+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:27:58.717+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.060 seconds
+[2023-04-11T11:28:29.413+0400] {processor.py:153} INFO - Started process (PID=779) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:28:29.415+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:28:29.417+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:28:29.416+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:28:29.421+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:28:29.459+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:29:00.158+0400] {processor.py:153} INFO - Started process (PID=792) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:29:00.160+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:29:00.161+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:29:00.161+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:29:00.165+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:29:00.204+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:29:30.911+0400] {processor.py:153} INFO - Started process (PID=805) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:29:30.913+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:29:30.915+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:29:30.914+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:29:30.919+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:29:30.957+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:30:01.633+0400] {processor.py:153} INFO - Started process (PID=819) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:30:01.635+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:30:01.636+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:30:01.636+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:30:01.641+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:30:01.679+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:30:32.400+0400] {processor.py:153} INFO - Started process (PID=832) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:30:32.402+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:30:32.404+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:30:32.404+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:30:32.410+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:30:32.448+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:31:03.152+0400] {processor.py:153} INFO - Started process (PID=846) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:31:03.154+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:31:03.156+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:31:03.156+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:31:03.160+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:31:03.197+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:31:33.249+0400] {processor.py:153} INFO - Started process (PID=859) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:31:33.250+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:31:33.252+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:31:33.252+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:31:33.256+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:31:33.279+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.042 seconds
+[2023-04-11T11:32:03.742+0400] {processor.py:153} INFO - Started process (PID=872) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:32:03.744+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:32:03.746+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:32:03.745+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:32:03.750+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:32:03.787+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:32:34.199+0400] {processor.py:153} INFO - Started process (PID=885) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:32:34.201+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:32:34.203+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:32:34.202+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:32:34.207+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:32:34.244+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:33:04.656+0400] {processor.py:153} INFO - Started process (PID=898) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:33:04.658+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:33:04.660+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:33:04.659+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:33:04.664+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:33:04.701+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:33:35.106+0400] {processor.py:153} INFO - Started process (PID=911) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:33:35.108+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:33:35.110+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:33:35.109+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:33:35.114+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:33:35.152+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:34:05.551+0400] {processor.py:153} INFO - Started process (PID=924) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:34:05.553+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:34:05.555+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:34:05.554+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:34:05.559+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:34:05.581+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.041 seconds
+[2023-04-11T11:34:35.988+0400] {processor.py:153} INFO - Started process (PID=937) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:34:35.990+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:34:35.991+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:34:35.991+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:34:35.995+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:34:36.034+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:35:06.363+0400] {processor.py:153} INFO - Started process (PID=950) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:35:06.365+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:35:06.367+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:35:06.367+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:35:06.371+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:35:06.408+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:35:36.861+0400] {processor.py:153} INFO - Started process (PID=963) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:35:36.863+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:35:36.864+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:35:36.864+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:35:36.868+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:35:36.907+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:36:07.266+0400] {processor.py:153} INFO - Started process (PID=976) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:36:07.268+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:36:07.270+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:36:07.270+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:36:07.275+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:36:07.312+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:36:37.714+0400] {processor.py:153} INFO - Started process (PID=989) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:36:37.715+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:36:37.717+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:36:37.717+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:36:37.721+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:36:37.759+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:37:08.154+0400] {processor.py:153} INFO - Started process (PID=1002) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:37:08.157+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:37:08.158+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:37:08.158+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:37:08.163+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:37:08.201+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:37:38.605+0400] {processor.py:153} INFO - Started process (PID=1015) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:37:38.607+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:37:38.609+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:37:38.609+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:37:38.613+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:37:38.638+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.043 seconds
+[2023-04-11T11:38:09.273+0400] {processor.py:153} INFO - Started process (PID=1028) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:38:09.275+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:38:09.277+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:38:09.277+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:38:09.281+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:38:09.317+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.052 seconds
+[2023-04-11T11:38:39.651+0400] {processor.py:153} INFO - Started process (PID=1042) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:38:39.653+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:38:39.655+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:38:39.655+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:38:39.659+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:38:39.698+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:39:10.222+0400] {processor.py:153} INFO - Started process (PID=1055) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:39:10.224+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:39:10.226+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:39:10.225+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:39:10.230+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:39:10.268+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:39:40.721+0400] {processor.py:153} INFO - Started process (PID=1068) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:39:40.722+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:39:40.724+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:39:40.724+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:39:40.728+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:39:40.771+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.060 seconds
+[2023-04-11T11:40:11.110+0400] {processor.py:153} INFO - Started process (PID=1082) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:40:11.112+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:40:11.113+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:40:11.113+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:40:11.117+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:40:11.156+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:40:41.557+0400] {processor.py:153} INFO - Started process (PID=1095) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:40:41.558+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:40:41.559+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:40:41.559+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:40:41.560+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:40:41.593+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.040 seconds
+[2023-04-11T11:41:12.037+0400] {processor.py:153} INFO - Started process (PID=1108) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:41:12.039+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:41:12.041+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:41:12.041+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:41:12.046+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:41:12.082+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:41:42.413+0400] {processor.py:153} INFO - Started process (PID=1121) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:41:42.415+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:41:42.417+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:41:42.416+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:41:42.420+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:41:42.456+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:42:12.763+0400] {processor.py:153} INFO - Started process (PID=1134) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:42:12.765+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:42:12.768+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:42:12.768+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:42:12.772+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:42:12.809+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:42:43.226+0400] {processor.py:153} INFO - Started process (PID=1147) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:42:43.228+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:42:43.231+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:42:43.231+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:42:43.235+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:42:43.275+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.060 seconds
+[2023-04-11T11:43:13.610+0400] {processor.py:153} INFO - Started process (PID=1160) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:43:13.612+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:43:13.614+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:43:13.613+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:43:13.618+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:43:13.654+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.051 seconds
+[2023-04-11T11:43:44.071+0400] {processor.py:153} INFO - Started process (PID=1173) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:43:44.073+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:43:44.076+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:43:44.076+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:43:44.080+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:43:44.116+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:44:14.459+0400] {processor.py:153} INFO - Started process (PID=1187) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:44:14.461+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:44:14.462+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:44:14.462+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:44:14.466+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:44:14.502+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:44:44.907+0400] {processor.py:153} INFO - Started process (PID=1200) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:44:44.909+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:44:44.911+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:44:44.910+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:44:44.915+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:44:44.949+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.052 seconds
+[2023-04-11T11:45:15.389+0400] {processor.py:153} INFO - Started process (PID=1219) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:45:15.391+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:45:15.393+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:45:15.392+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:45:15.397+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:45:15.435+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:45:45.837+0400] {processor.py:153} INFO - Started process (PID=1233) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:45:45.839+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:45:45.841+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:45:45.841+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:45:45.845+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:45:45.883+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:46:16.307+0400] {processor.py:153} INFO - Started process (PID=1246) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:46:16.309+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:46:16.311+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:46:16.310+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:46:16.315+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:46:16.352+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:46:46.778+0400] {processor.py:153} INFO - Started process (PID=1259) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:46:46.780+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:46:46.783+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:46:46.782+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:46:46.788+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:46:46.829+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.061 seconds
+[2023-04-11T11:47:17.256+0400] {processor.py:153} INFO - Started process (PID=1272) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:47:17.258+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:47:17.259+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:47:17.259+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:47:17.263+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:47:17.300+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:47:47.682+0400] {processor.py:153} INFO - Started process (PID=1285) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:47:47.684+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:47:47.686+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:47:47.685+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:47:47.690+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:47:47.727+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:48:18.142+0400] {processor.py:153} INFO - Started process (PID=1298) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:48:18.144+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:48:18.146+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:48:18.146+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:48:18.150+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:48:18.187+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:48:48.612+0400] {processor.py:153} INFO - Started process (PID=1312) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:48:48.613+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:48:48.615+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:48:48.615+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:48:48.619+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:48:48.658+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:49:19.037+0400] {processor.py:153} INFO - Started process (PID=1325) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:49:19.038+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:49:19.038+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:49:19.038+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:49:19.040+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:49:19.056+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.023 seconds
+[2023-04-11T11:49:49.497+0400] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:49:49.499+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:49:49.501+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:49:49.500+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:49:49.505+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:49:49.544+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:50:19.967+0400] {processor.py:153} INFO - Started process (PID=1351) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:50:19.968+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:50:19.970+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:50:19.970+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:50:19.974+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:50:20.012+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:50:50.417+0400] {processor.py:153} INFO - Started process (PID=1364) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:50:50.419+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:50:50.421+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:50:50.420+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:50:50.425+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:50:50.463+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:51:20.870+0400] {processor.py:153} INFO - Started process (PID=1377) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:51:20.872+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:51:20.874+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:51:20.873+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:51:20.879+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:51:20.918+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.058 seconds
+[2023-04-11T11:51:51.548+0400] {processor.py:153} INFO - Started process (PID=1390) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:51:51.549+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:51:51.553+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:51:51.552+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:51:51.556+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:51:51.592+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:52:22.082+0400] {processor.py:153} INFO - Started process (PID=1404) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:52:22.084+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:52:22.086+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:52:22.086+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:52:22.090+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:52:22.126+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:52:52.554+0400] {processor.py:153} INFO - Started process (PID=1417) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:52:52.555+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:52:52.557+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:52:52.557+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:52:52.561+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:52:52.596+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.054 seconds
+[2023-04-11T11:53:23.208+0400] {processor.py:153} INFO - Started process (PID=1430) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:53:23.210+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:53:23.224+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:53:23.223+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:53:23.229+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:53:23.255+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.061 seconds
+[2023-04-11T11:53:53.620+0400] {processor.py:153} INFO - Started process (PID=1443) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:53:53.622+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:53:53.624+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:53:53.624+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:53:53.628+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:53:53.664+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.052 seconds
+[2023-04-11T11:54:24.073+0400] {processor.py:153} INFO - Started process (PID=1456) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:54:24.075+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:54:24.077+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:54:24.076+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:54:24.081+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:54:24.115+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:54:54.441+0400] {processor.py:153} INFO - Started process (PID=1469) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:54:54.443+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:54:54.445+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:54:54.445+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:54:54.449+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:54:54.488+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:55:25.054+0400] {processor.py:153} INFO - Started process (PID=1482) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:55:25.055+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:55:25.056+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:55:25.056+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:55:25.058+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:55:25.103+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:55:55.527+0400] {processor.py:153} INFO - Started process (PID=1495) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:55:55.529+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:55:55.531+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:55:55.531+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:55:55.535+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:55:55.571+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:56:26.150+0400] {processor.py:153} INFO - Started process (PID=1508) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:56:26.151+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:56:26.153+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:56:26.153+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:56:26.157+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:56:26.198+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.057 seconds
+[2023-04-11T11:56:56.612+0400] {processor.py:153} INFO - Started process (PID=1521) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:56:56.614+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:56:56.616+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:56:56.615+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:56:56.620+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:56:56.658+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.055 seconds
+[2023-04-11T11:57:27.036+0400] {processor.py:153} INFO - Started process (PID=1534) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:57:27.037+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:57:27.039+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:57:27.038+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:57:27.043+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:57:27.082+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.053 seconds
+[2023-04-11T11:57:57.478+0400] {processor.py:153} INFO - Started process (PID=1547) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:57:57.480+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:57:57.482+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:57:57.482+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:57:57.486+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:57:57.526+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.056 seconds
+[2023-04-11T11:58:28.110+0400] {processor.py:153} INFO - Started process (PID=1560) to work on /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:58:28.111+0400] {processor.py:743} INFO - Processing file /opt/airflow/dags/tenx_dags/email_post_ten.py for tasks to queue
+[2023-04-11T11:58:28.113+0400] {logging_mixin.py:137} INFO - [2023-04-11T11:58:28.113+0400] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:58:28.117+0400] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/tenx_dags/email_post_ten.py
+[2023-04-11T11:58:28.159+0400] {processor.py:175} INFO - Processing /opt/airflow/dags/tenx_dags/email_post_ten.py took 0.058 seconds

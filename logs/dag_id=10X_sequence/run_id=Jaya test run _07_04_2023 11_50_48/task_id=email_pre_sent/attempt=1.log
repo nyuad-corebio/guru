@@ -1,0 +1,24 @@
+[2023-04-07T11:50:56.053+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10X_sequence.email_pre_sent Jaya test run _07_04_2023 11_50_48 [queued]>
+[2023-04-07T11:50:56.082+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10X_sequence.email_pre_sent Jaya test run _07_04_2023 11_50_48 [queued]>
+[2023-04-07T11:50:56.083+0400] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T11:50:56.083+0400] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-07T11:50:56.084+0400] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T11:50:56.130+0400] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): email_pre_sent> on 2023-04-07 07:50:49.049088+00:00
+[2023-04-07T11:50:56.143+0400] {standard_task_runner.py:55} INFO - Started process 264 to run task
+[2023-04-07T11:50:56.153+0400] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '10X_sequence', 'email_pre_sent', 'Jaya test run _07_04_2023 11_50_48', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/10X_sequence_dag.py', '--cfg-path', '/tmp/tmprj_7e17p']
+[2023-04-07T11:50:56.155+0400] {standard_task_runner.py:83} INFO - Job 6: Subtask email_pre_sent
+[2023-04-07T11:50:56.369+0400] {task_command.py:389} INFO - Running <TaskInstance: 10X_sequence.email_pre_sent Jaya test run _07_04_2023 11_50_48 [running]> on host fc743c57cc60
+[2023-04-07T11:50:56.599+0400] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=10X_sequence
+AIRFLOW_CTX_TASK_ID=email_pre_sent
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-07T07:50:49.049088+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=Jaya test run _07_04_2023 11_50_48
+[2023-04-07T11:50:56.623+0400] {base.py:73} INFO - Using connection ID '***_docker_email' for task execution.
+[2023-04-07T11:50:59.318+0400] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-07T11:50:59.351+0400] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=10X_sequence, task_id=email_pre_sent, execution_date=20230407T075049, start_date=20230407T075056, end_date=20230407T075059
+[2023-04-07T11:50:59.412+0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-07T11:50:59.510+0400] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

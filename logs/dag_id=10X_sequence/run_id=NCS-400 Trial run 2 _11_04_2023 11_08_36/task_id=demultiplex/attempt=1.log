@@ -1,0 +1,117 @@
+[2023-04-11T11:35:42.573+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10X_sequence.demultiplex NCS-400 Trial run 2 _11_04_2023 11_08_36 [queued]>
+[2023-04-11T11:35:42.603+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10X_sequence.demultiplex NCS-400 Trial run 2 _11_04_2023 11_08_36 [queued]>
+[2023-04-11T11:35:42.603+0400] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T11:35:42.604+0400] {taskinstance.py:1289} INFO - Starting attempt 1 of 2
+[2023-04-11T11:35:42.604+0400] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T11:35:42.648+0400] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): demultiplex> on 2023-04-11 07:08:37.496302+00:00
+[2023-04-11T11:35:42.656+0400] {standard_task_runner.py:55} INFO - Started process 1618 to run task
+[2023-04-11T11:35:42.667+0400] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '10X_sequence', 'demultiplex', 'NCS-400 Trial run 2 _11_04_2023 11_08_36', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/10X_sequence_dag.py', '--cfg-path', '/tmp/tmp42b_t6wx']
+[2023-04-11T11:35:42.668+0400] {standard_task_runner.py:83} INFO - Job 52: Subtask demultiplex
+[2023-04-11T11:35:42.813+0400] {task_command.py:389} INFO - Running <TaskInstance: 10X_sequence.demultiplex NCS-400 Trial run 2 _11_04_2023 11_08_36 [running]> on host e286faa700a5
+[2023-04-11T11:35:43.032+0400] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=10X_sequence
+AIRFLOW_CTX_TASK_ID=demultiplex
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-11T07:08:37.496302+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=NCS-400 Trial run 2 _11_04_2023 11_08_36
+[2023-04-11T11:35:43.057+0400] {base.py:73} INFO - Using connection ID '***_docker_ssh' for task execution.
+[2023-04-11T11:35:43.059+0400] {ssh.py:299} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-04-11T11:35:43.071+0400] {transport.py:1873} INFO - Connected (version 2.0, client OpenSSH_8.0)
+[2023-04-11T11:35:43.298+0400] {transport.py:1873} INFO - Authentication (publickey) successful!
+[2023-04-11T11:35:43.865+0400] {sftp.py:169} INFO - [chan 0] Opened sftp connection (server version 3)
+[2023-04-11T11:35:43.903+0400] {logging_mixin.py:137} INFO - #!/bin/bash
+#SBATCH --output=NCS-400-demultiplex_%A.out
+#SBATCH --error=NCS-400-demultiplex_%A.err
+#SBATCH -J NCS-400-demultiplex
+#SBATCH --nodes=1
+#SBATCH -A gencore
+#SBATCH --ntasks=1
+#SBATCH --partition=gencore
+#SBATCH --cpus-per-task=28
+#SBATCH --time=1000:00:00
+#SBATCH --mem 420000
+
+
+cd /scratch/gencore/novaseq/221130_A00534_0114_BHHYF3DRX2 && \
+        cellranger mkfastq -R /scratch/gencore/novaseq/221130_A00534_0114_BHHYF3DRX2 \
+        --csv=10xsimple.csv --id=NCS-400 \
+        --output-dir NCS-400 --jobmode=local \
+        --localcores=28 --localmem=400  \
+[2023-04-11T11:35:43.908+0400] {ssh_helpers.py:134} INFO - ====================================================
+[2023-04-11T11:35:43.908+0400] {ssh_helpers.py:135} INFO - Executing command: 
+cd /scratch/gencore/novaseq/221130_A00534_0114_BHHYF3DRX2 && chmod 777 *sh && sbatch /scratch/gencore/novaseq/221130_A00534_0114_BHHYF3DRX2/demultiplex.sh
+[2023-04-11T11:35:43.909+0400] {ssh_helpers.py:136} INFO - ====================================================
+[2023-04-11T11:35:44.503+0400] {ssh_helpers.py:184} INFO - Command Output
+[2023-04-11T11:35:44.504+0400] {ssh_helpers.py:185} INFO - ====================================================
+[2023-04-11T11:35:44.504+0400] {ssh_helpers.py:186} INFO - Submitted batch job 1434363
+[2023-04-11T11:35:44.504+0400] {ssh_helpers.py:187} INFO - ====================================================
+[2023-04-11T11:35:44.504+0400] {ssh_helpers.py:195} INFO - Command exited with exitcode 0
+[2023-04-11T11:36:44.536+0400] {slurm_helpers.py:53} INFO - Polling slurm job 1434363
+[2023-04-11T11:36:44.537+0400] {ssh_helpers.py:134} INFO - ====================================================
+[2023-04-11T11:36:44.537+0400] {ssh_helpers.py:135} INFO - Executing command: sacct -a -j 1434363
+[2023-04-11T11:36:44.537+0400] {ssh_helpers.py:136} INFO - ====================================================
+[2023-04-11T11:36:45.115+0400] {ssh_helpers.py:184} INFO - Command Output
+[2023-04-11T11:36:45.115+0400] {ssh_helpers.py:185} INFO - ====================================================
+[2023-04-11T11:36:45.116+0400] {ssh_helpers.py:186} INFO -        JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+1434363      NCS-400-d+    gencore    gencore         28    RUNNING      0:0 
+1434363.bat+      batch               gencore         28    RUNNING      0:0 
+1434363.ext+     extern               gencore         28    RUNNING      0:0 
+[2023-04-11T11:36:45.116+0400] {ssh_helpers.py:187} INFO - ====================================================
+[2023-04-11T11:36:45.116+0400] {ssh_helpers.py:195} INFO - Command exited with exitcode 0
+[2023-04-11T11:36:45.117+0400] {slurm_helpers.py:63} INFO - Current job status: RUNNING
+[2023-04-11T11:41:45.214+0400] {ssh_helpers.py:134} INFO - ====================================================
+[2023-04-11T11:41:45.214+0400] {ssh_helpers.py:135} INFO - Executing command: sacct -a -j 1434363
+[2023-04-11T11:41:45.215+0400] {ssh_helpers.py:136} INFO - ====================================================
+[2023-04-11T11:41:45.851+0400] {ssh_helpers.py:184} INFO - Command Output
+[2023-04-11T11:41:45.851+0400] {ssh_helpers.py:185} INFO - ====================================================
+[2023-04-11T11:41:45.852+0400] {ssh_helpers.py:186} INFO -        JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+1434363      NCS-400-d+    gencore    gencore         28    RUNNING      0:0 
+1434363.bat+      batch               gencore         28    RUNNING      0:0 
+1434363.ext+     extern               gencore         28    RUNNING      0:0 
+[2023-04-11T11:41:45.852+0400] {ssh_helpers.py:187} INFO - ====================================================
+[2023-04-11T11:41:45.852+0400] {ssh_helpers.py:195} INFO - Command exited with exitcode 0
+[2023-04-11T11:41:45.853+0400] {slurm_helpers.py:63} INFO - Current job status: RUNNING
+[2023-04-11T11:46:45.888+0400] {ssh_helpers.py:134} INFO - ====================================================
+[2023-04-11T11:46:45.889+0400] {ssh_helpers.py:135} INFO - Executing command: sacct -a -j 1434363
+[2023-04-11T11:46:45.889+0400] {ssh_helpers.py:136} INFO - ====================================================
+[2023-04-11T11:46:46.473+0400] {ssh_helpers.py:184} INFO - Command Output
+[2023-04-11T11:46:46.474+0400] {ssh_helpers.py:185} INFO - ====================================================
+[2023-04-11T11:46:46.474+0400] {ssh_helpers.py:186} INFO -        JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+1434363      NCS-400-d+    gencore    gencore         28    RUNNING      0:0 
+1434363.bat+      batch               gencore         28    RUNNING      0:0 
+1434363.ext+     extern               gencore         28    RUNNING      0:0 
+[2023-04-11T11:46:46.474+0400] {ssh_helpers.py:187} INFO - ====================================================
+[2023-04-11T11:46:46.475+0400] {ssh_helpers.py:195} INFO - Command exited with exitcode 0
+[2023-04-11T11:46:46.475+0400] {slurm_helpers.py:63} INFO - Current job status: RUNNING
+[2023-04-11T11:51:46.546+0400] {ssh_helpers.py:134} INFO - ====================================================
+[2023-04-11T11:51:46.547+0400] {ssh_helpers.py:135} INFO - Executing command: sacct -a -j 1434363
+[2023-04-11T11:51:46.548+0400] {ssh_helpers.py:136} INFO - ====================================================
+[2023-04-11T11:51:47.156+0400] {ssh_helpers.py:184} INFO - Command Output
+[2023-04-11T11:51:47.157+0400] {ssh_helpers.py:185} INFO - ====================================================
+[2023-04-11T11:51:47.158+0400] {ssh_helpers.py:186} INFO -        JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+1434363      NCS-400-d+    gencore    gencore         28    RUNNING      0:0 
+1434363.bat+      batch               gencore         28    RUNNING      0:0 
+1434363.ext+     extern               gencore         28    RUNNING      0:0 
+[2023-04-11T11:51:47.158+0400] {ssh_helpers.py:187} INFO - ====================================================
+[2023-04-11T11:51:47.159+0400] {ssh_helpers.py:195} INFO - Command exited with exitcode 0
+[2023-04-11T11:51:47.160+0400] {slurm_helpers.py:63} INFO - Current job status: RUNNING
+[2023-04-11T11:56:47.260+0400] {ssh_helpers.py:134} INFO - ====================================================
+[2023-04-11T11:56:47.261+0400] {ssh_helpers.py:135} INFO - Executing command: sacct -a -j 1434363
+[2023-04-11T11:56:47.261+0400] {ssh_helpers.py:136} INFO - ====================================================
+[2023-04-11T11:56:47.929+0400] {ssh_helpers.py:184} INFO - Command Output
+[2023-04-11T11:56:47.930+0400] {ssh_helpers.py:185} INFO - ====================================================
+[2023-04-11T11:56:47.930+0400] {ssh_helpers.py:186} INFO -        JobID    JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+1434363      NCS-400-d+    gencore    gencore         28    RUNNING      0:0 
+1434363.bat+      batch               gencore         28    RUNNING      0:0 
+1434363.ext+     extern               gencore         28    RUNNING      0:0 
+[2023-04-11T11:56:47.931+0400] {ssh_helpers.py:187} INFO - ====================================================
+[2023-04-11T11:56:47.931+0400] {ssh_helpers.py:195} INFO - Command exited with exitcode 0
+[2023-04-11T11:56:47.931+0400] {slurm_helpers.py:63} INFO - Current job status: RUNNING

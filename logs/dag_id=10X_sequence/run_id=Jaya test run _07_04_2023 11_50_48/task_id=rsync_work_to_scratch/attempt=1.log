@@ -1,0 +1,34 @@
+[2023-04-07T11:50:51.699+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 10X_sequence.rsync_work_to_scratch Jaya test run _07_04_2023 11_50_48 [queued]>
+[2023-04-07T11:50:51.725+0400] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 10X_sequence.rsync_work_to_scratch Jaya test run _07_04_2023 11_50_48 [queued]>
+[2023-04-07T11:50:51.726+0400] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T11:50:51.726+0400] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2023-04-07T11:50:51.727+0400] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-07T11:50:51.764+0400] {taskinstance.py:1309} INFO - Executing <Task(SSHOperator): rsync_work_to_scratch> on 2023-04-07 07:50:49.049088+00:00
+[2023-04-07T11:50:51.776+0400] {standard_task_runner.py:55} INFO - Started process 258 to run task
+[2023-04-07T11:50:51.785+0400] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', '10X_sequence', 'rsync_work_to_scratch', 'Jaya test run _07_04_2023 11_50_48', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/10X_sequence_dag.py', '--cfg-path', '/tmp/tmp6bnk5zny']
+[2023-04-07T11:50:51.786+0400] {standard_task_runner.py:83} INFO - Job 5: Subtask rsync_work_to_scratch
+[2023-04-07T11:50:52.024+0400] {task_command.py:389} INFO - Running <TaskInstance: 10X_sequence.rsync_work_to_scratch Jaya test run _07_04_2023 11_50_48 [running]> on host fc743c57cc60
+[2023-04-07T11:50:52.267+0400] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=10X_sequence
+AIRFLOW_CTX_TASK_ID=rsync_work_to_scratch
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-07T07:50:49.049088+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=Jaya test run _07_04_2023 11_50_48
+[2023-04-07T11:50:52.268+0400] {ssh.py:135} INFO - Creating ssh_client
+[2023-04-07T11:50:52.269+0400] {ssh.py:299} WARNING - No Host Key Verification. This won't protect against Man-In-The-Middle attacks
+[2023-04-07T11:50:52.310+0400] {transport.py:1873} INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+[2023-04-07T11:50:52.728+0400] {transport.py:1873} INFO - Auth banner: b'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n           WARNING:  UNAUTHORIZED PERSONS ........ DO NOT PROCEED\n           ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~          ~~~~~~~~~~~~~~\n This computer system is operated by New York University (NYU) and may be\n accessed only by authorized users.  Authorized users are granted specific,\n limited privileges in their use of the system.  The data and programs\n in this system may not be accessed, copied, modified, or disclosed without\n prior approval of NYU.  Access and use, or causing access and use, of this\n computer system by anyone other than as permitted by NYU are strictly pro-\n hibited by NYU and by law and may subject an unauthorized user, including\n unauthorized employees, to criminal and civil penalties as well as NYU-\n initiated disciplinary proceedings.  The use of this system is routinely\n monitored and recorded, and anyone accessing this system consents to such\n monitoring and recording.  Questions regarding this access policy should be\n directed (by e-mail) to AskITS@nyu.edu or (by phone) to 212-998-3333.\n Questions on other topics should be directed to COMMENT (by email) or to\n 212-998-3333 by phone.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n'
+[2023-04-07T11:50:52.729+0400] {transport.py:1873} INFO - Authentication (publickey) successful!
+[2023-04-07T11:50:52.730+0400] {ssh.py:476} INFO - Running command: 
+        mkdir -p /scratch/gencore/testdir/jayaback
+        rsync -av "/archive/gencoreseq/testdir/jayaback/" "/scratch/gencore/testdir/jayaback/"
+[2023-04-07T11:50:53.008+0400] {ssh.py:516} INFO - sending incremental file list
+[2023-04-07T11:50:53.011+0400] {ssh.py:516} INFO - ./
+[2023-04-07T11:50:53.053+0400] {ssh.py:516} INFO - sent 111 bytes  received 19 bytes  86.67 bytes/sec
+[2023-04-07T11:50:53.053+0400] {ssh.py:516} INFO - total size is 2,212  speedup is 17.02
+[2023-04-07T11:50:53.148+0400] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=10X_sequence, task_id=rsync_work_to_scratch, execution_date=20230407T075049, start_date=20230407T075051, end_date=20230407T075053
+[2023-04-07T11:50:53.198+0400] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-07T11:50:53.292+0400] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check
