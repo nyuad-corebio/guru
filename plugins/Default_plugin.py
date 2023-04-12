@@ -66,7 +66,7 @@ def qc_workflow():
     sftp = ssh_client.open_sftp()
     qc_file = [None]
     try:
-        dir = '/scratch/gencore/workflows/latest/'
+        dir = os.environ.get('QC_WORKDIR')
         for filename in sftp.listdir(dir):
             if fnmatch.fnmatch(filename, "*.yml"):
                 qc_file.append('{}{}'.format(dir, filename))
@@ -79,12 +79,6 @@ def qc_workflow():
 
 """Function to check if the work directory given is exist or not."""
 def file_validate(form, field):
-    # Establish SSH connection to the server
-    # ssh = paramiko.SSHClient()
-    # ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    # ssh.connect(hostname='cgsb-build.abudhabi.nyu.edu', username='jr5241')
-    # # Get the path and assign to a list
-    # sftp = ssh.open_sftp()
     # Below 3 lines based on airflow ssh connection defined.
     ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
     ssh_client = ssh_hook.get_conn()

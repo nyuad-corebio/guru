@@ -52,9 +52,6 @@ def validate_miso_id(form, field):
 
 """Function to select/choose the qc_workflow file from jubail."""
 def qc_workflow():    
-    # ssh = paramiko.SSHClient()
-    # ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    # ssh.connect(hostname='cgsb-build.abudhabi.nyu.edu', username='jr5241')
     # Check if the file exists on the server
     ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
     ssh_client = ssh_hook.get_conn()
@@ -73,10 +70,6 @@ def qc_workflow():
 
 """Function to check if the work directory given is exist or not."""
 def file_validate(form, field):
-    # Establish SSH connection to the server
-    # ssh = paramiko.SSHClient()
-    # ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    # ssh.connect(hostname='cgsb-build.abudhabi.nyu.edu', username='jr5241')
     # Get the path and assign to a list
     ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
     ssh_client = ssh_hook.get_conn()
