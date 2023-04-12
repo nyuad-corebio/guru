@@ -29,22 +29,14 @@ You are now ready to run GURU.
 
 #### Setting up the environment
 
+Specifying the environment variables. 
+
 ``` bash
 cat .env
 ### Airflow variables
 AIRFLOW_UID=<Airflow USER ID - Default is 50000>
 AIRFLOW_URL=<IP Address or Hostname of the host machine>
 AIRFLOW_PORT=8080
-
-### SSH Connection variables
-AIRFLOW_CONN_MY_SSH_CONN=ssh://user@host:port?key_file=/home/airflow/.ssh/id_rsa&missing_host_key_policy=AutoAddPolicy&conn_name=my_ssh_conn
-
-### Mysql Connection variables
-AIRFLOW_CONN_MY_MYSQL_CONN=mysql://user:password@host:port/database_name?conn_name=my_mysql_conn
-
-### Email Connection variables
-AIRFLOW_CONN_MY_EMAIL_CONN=smtp://user:password@smtp.gmail.com:587/?conn_name=my_email_conn
-
 
 ### Jira variables
 CONSUMER_KEY=<key_name>
@@ -53,7 +45,7 @@ OAUTH_TOKEN=<token>
 OAUTH_TOKEN_SECRET=<token_secret>
 ```
 
-*** Update airflow connection params ***
+***Update airflow connection params***
 
 
 To bring up the environment, install the pre-requisites above and run the
@@ -74,7 +66,7 @@ docker compose logs -f
 
 
 
-To access  [http://localhost](http://localhost)
+To access  [http://IP-address:8080](http://IP-address:8080)
 and use the credentials **airflow**/**airflow**.
 
 
