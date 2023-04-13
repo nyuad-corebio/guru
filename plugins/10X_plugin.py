@@ -21,19 +21,11 @@ bp = Blueprint(
                "10X_run",
                __name__,
                template_folder="templates", 
-            #    static_folder="static",
-            #    static_url_path="/static/test_plugin",
                )
 
 """Function for checking the miso ID exist in the mysql database"""
 def validate_miso_id(form, field):
     """Defining the mysql access information""" 
-    # conn = mysql.connector.connect(
-    #     host="localhost",
-    #     user="root",
-    #     password="q1w2e3r4@",
-    #     database="lims"
-    # )
     # Using mysqlhook module loaded mysql connections to get the credentials.
     mysql_hook = MySqlHook(mysql_conn_id='airflow_docker_mysql')
     conn = mysql_hook.get_conn()
@@ -49,24 +41,6 @@ def validate_miso_id(form, field):
     """Defining the error condition if fails """
     if count == 0:
         raise ValidationError(f"Miso Run ID {misoid} not found in database.")
-
-"""Function to select/choose the qc_workflow file from jubail."""
-def qc_workflow():    
-    # Check if the file exists on the server
-    ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
-    ssh_client = ssh_hook.get_conn()
-    sftp = ssh_client.open_sftp()
-    qc_file = [None]
-    try:
-        dir = '/scratch/gencore/workflows/latest/'
-        for filename in sftp.listdir(dir):
-            if fnmatch.fnmatch(filename, "*.yml"):
-                qc_file.append('{}{}'.format(dir, filename))
-        sftp.close()
-    except FileNotFoundError as e:
-        raise ValidationError('QC_Workflow path not visible, Contact Airflow admin')
-    return qc_file
-
 
 """Function to check if the work directory given is exist or not."""
 def file_validate(form, field):
@@ -94,7 +68,7 @@ def validate_emails(form, field):
         raise ValidationError('Invalid email address format: {}'.format(', '.join(invalid_emails)))
 
 
-"""Function to check the jira ticket existence"""
+"""Function to check the jira ticket existance"""
 def validate_jira_ticket(form, field):
     ticket_id = field.data
     try:
@@ -123,7 +97,6 @@ class Singlecell_10XBaseView(AppBuilderBaseView):
     @csrf.exempt 
     def seqrun(self):
         now = datetime.now()
-        # dd/mm/YY H:M:S
         dt_string = now.strftime("%d_%m_%Y %H_%M_%S")
         form = MyForm(request.form)
         if  request.method == 'POST' and form.validate():
@@ -133,8 +106,10 @@ class Singlecell_10XBaseView(AppBuilderBaseView):
             form.archive_dir.data = archive_dir_value
             run_id = form.projname.data + "_" + dt_string
             issue, description = validate_jira_ticket(form, form.jira_ticket)
+            #Using Airflow DagBag module, we are establish the connection to Airflow Dag.
             dagbag = DagBag('dags')
             dag = dagbag.get_dag('10X_sequence')
+            #We are triggering the dag here with passing the input variable and run_id.
             dag.create_dagrun(
                 run_id=run_id,        
                 state=State.RUNNING,
@@ -159,19 +134,16 @@ class Singlecell_10XBaseView(AppBuilderBaseView):
                     flash(f'{error}')
             return self.render_template("10x.html", form = form)
         
-        # if   request.method == 'POST' and not form.validate():
-        #     return 'wrong'
-        # return self.render_template("test.html", form = form)
 
-
+"""Defining the custom UI"""
 v_appbuilder_view = Singlecell_10XBaseView()
 v_appbuilder_package = {
-    "name": "10X Sequence Run",    # this is the name of the link displayed
-    "category": "Demultiplex Runs", # This is the name of the tab under     which we have our view
+    "name": "10X Sequence Run",    # this is the sub tab name under the main
+    "category": "Demultiplex Runs", # This is the main tab name under which we have our custom view
     "view": v_appbuilder_view
 }
 
-
+"""Specifying the Plugin parameters"""
 class AirflowPlugin(AirflowPlugin):
     name = "10X_run"
     operators = []

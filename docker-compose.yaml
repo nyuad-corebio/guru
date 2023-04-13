@@ -175,7 +175,7 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-
+## In this step, we added our post install configurations like adding connections.
   airflow-post-install:
     <<: *airflow-common
     entrypoint: /bin/bash

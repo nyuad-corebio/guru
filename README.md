@@ -3,8 +3,32 @@
 ## Trying GURU
 
 
+### Standalone setup
 
-### Docker setup is needed 
+Installation using pip based setup as follows:- 
+
+``` bash
+
+cat pip-requirements.txt
+apache-airflow                      
+apache-airflow-client               
+apache-airflow-providers-common-sql 
+apache-airflow-providers-ftp        
+apache-airflow-providers-http       
+apache-airflow-providers-imap       
+apache-airflow-providers-mysql      
+apache-airflow-providers-sqlite     
+apache-airflow-providers-ssh        
+```
+
+``` bash
+pip3 install -r pip-requirements.txt
+```
+
+
+
+### Docker setup 
+
 
 The simplest way to get GURU up and running quickly is to use
 [Docker](https://www.docker.com/) compose. 
@@ -15,6 +39,7 @@ Install required dependencies:
 
 1. [Install Docker Latest Version V23.0.2+](https://docs.docker.com/engine/install/)
 2. Linux Server preferred
+
 
 
 Clone the repository and switch to the working directory.

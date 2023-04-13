@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 #############################################################################
 # Arguments for Airflow initialization
@@ -6,21 +6,21 @@
 ############################################################################
 
 ## Defining SSH connection 
-airflow connections add  <ssh-conn-name>   --conn-type ssh \
+airflow connections add  airflow_docker_ssh   --conn-type ssh \
     --conn-host < hostname or IP address > \
     --conn-login user \
     --conn-port 22 \
     --conn-extra '{"key_file": "/home/airflow/.ssh/id_rsa", "missing_host_key_policy": "AutoAddPolicy"}'
 
 ## Defining SMTP connection 
-airflow connections add <email-conn-name> --conn-type email \
+airflow connections add airflow_docker_email --conn-type email \
     --conn-host smtp.gmail.com \ 
     --conn-login <emailID> \ 
     --conn-password <email-pass> \ 
     --conn-port <port-num>
 
 ## Defining Mysql Connection 
-airflow connections add <mysql-conn-name> --conn-type mysql \ 
+airflow connections add airflow_docker_mysql --conn-type mysql \ 
     --conn-login <user> \
     --conn-password <pass> \
     --conn-host <hostname or IP address > \
