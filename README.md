@@ -16,7 +16,7 @@ Managing and maintaining a genomics infrastructure requires a multi-layered appr
 #<img src="https://github.com/nyuad-corebio/guru/blob/master/img/guru_title.png" align="center" />
 
 <p>
-    <img src="/img/guru_title.png" width="220" height="240" />
+    <img src="/img/guru_title.png"  align="center" />
 </p>
 
 ### Key facts 
