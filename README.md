@@ -238,9 +238,9 @@ Note:-
 
 - Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
-
-- <img src="/img/guru_ui_10x.png"  align="left" />
-<br>
+<p>
+<img src="/img/guru_ui_10x.png"  align="left" />
+</p>
 
 
 ## Contact
