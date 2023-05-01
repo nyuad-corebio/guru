@@ -188,28 +188,28 @@ Note:-
 - Once login to Airflow UI, you may see the Airflow dags as below.
 
 <p>
-<img src="/img/guru_dag.png"  align="left" width="100" height="100" />
+<img src="/img/guru_dag.png"  align="left"  />
 </p>
 
 
 - Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
 
 <p>
-<img src="/img/guru_ui_tab.png"  align="left" width="100" height="100" />
+<img src="/img/guru_ui_tab.png"  align="left"  />
 </p>
 
 
 - Select "Default Sequence Run" 
 
 <p>
-<img src="/img/guru_ui_template.png"  align="left" width="100" height="100" />
+<img src="/img/guru_ui_template.png"  align="left" />
 </p>
 
 
 - Here is the summary for one of the sequence run as per our setup.
 
 <p>
-<img src="/img/guru_ui_summary.png"  align="left" width="100" height="100" />
+<img src="/img/guru_ui_summary.png"  align="left" />
 </p>
 
 - `Project Name` Specify small description of the Project for eg:- Run for jacob for single cell.
@@ -226,22 +226,21 @@ Note:-
 
 - If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
 <br>
-- <img src="/img/guru_dag_run.png"  align="left" width="100" height="100" />
+- <img src="/img/guru_dag_run.png"  align="left" />
 
 - Select "10X Sequence Run"
 
 <br>
-<img src="/img/guru_ui_10xui.png"  align="left" width="100" height="100" />
+<img src="/img/guru_ui_10xui.png"  align="left" />
 
 
 **10X Workflow**: Here you can choose the 10X workflows by choosing the appropriate radio button.
 
 - Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
-<br>
-
-- <img src="/img/guru_ui_10x.png"  align="left" width="100" height="100" />
-
+<p>
+- <img src="/img/guru_ui_10x.png"  align="left" />
+</p>
 
 ## Contact
 
