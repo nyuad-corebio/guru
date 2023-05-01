@@ -188,7 +188,7 @@ Note:-
 - Once login to Airflow UI, you may see the Airflow dags as below.
 
 <p>
-<img src="/img/guru_dag.png"  align="left" width="500" height="500" />
+<img src="/img/guru_dag.png"  align="left"/>
 </p>
 
 
