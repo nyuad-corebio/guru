@@ -212,7 +212,7 @@ Note:-
 
 - Here is the summary for one of the sequence run as per our setup.
 
-<img src="/img/guru_ui_summary"  align="left" />
+<img src="/img/guru_ui_summary.png"  align="left" />
 
 
 
@@ -228,13 +228,13 @@ Note:-
 
 - If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
 
-- <img src="/img/guru_dag_run"  align="left" />
+- <img src="/img/guru_dag_run.png"  align="left" />
 
 
 
 - Select "10X Sequence Run"
 
-<img src="/img/guru_ui_10xui"  align="left" />
+<img src="/img/guru_ui_10xui.png"  align="left" />
 
 
 
@@ -242,7 +242,7 @@ Note:-
 
 - Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
-- <img src="/img/guru_ui_10x"  align="left" />
+- <img src="/img/guru_ui_10x.png"  align="left" />
 
 
 
