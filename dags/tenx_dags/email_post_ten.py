@@ -26,7 +26,6 @@ def generate_email_task(ds, **kwargs):
                  "Note that this is an automated message please do not respond to this email as it is not monitored.\n"
                  "\n"
                  "Regards\n"
-                 "NYU Abu Dhabi Core Bioinformatics\n")
 
     # Set the SMTP Connection ID
     smtp_conn_id = 'airflow_docker_email'  
@@ -41,7 +40,7 @@ def generate_email_task(ds, **kwargs):
     # Compose the template
     msg = EmailMessage()
     msg['From'] = "Sequencing Run Notification"
-    to = (f"{email_id},{default}")
+    to = (f"{email_id}")
     msg['To'] = to
     msg['Subject'] = subject
     msg.set_content(body)
@@ -64,7 +63,6 @@ def email_jira_ticket_success(context):
                  "{code}"
                  "\n"
                  "Regards,\n"
-                 "NYU Abu Dhabi Core Bioinformatics\n")
     jira_client.add_comment(jira_ticket, comment)
     return
 

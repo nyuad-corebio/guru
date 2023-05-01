@@ -17,7 +17,6 @@ def generate_email_task(ds, **kwargs):
     email_id = dag_run.conf['email_id']
     miso_id = dag_run.conf['miso_id']
     jira_ticket = dag_run.conf['jira_ticket']
-    default = "nyuad.cgsb.cb@nyu.edu"
 
     # SMTP configuration begins 
     subject = f"Processing 10X sequencing run {jira_ticket} / Miso ID {miso_id}"
@@ -26,7 +25,6 @@ def generate_email_task(ds, **kwargs):
                  "Note that this is an automated message please do not respond to this email as it is not monitored.\n"
                  "\n"
                  "Regards\n"
-                 "NYU Abu Dhabi Core Bioinformatics\n")
 
     # Set the SMTP Connection ID
     smtp_conn_id = 'airflow_docker_email'  
@@ -41,7 +39,7 @@ def generate_email_task(ds, **kwargs):
     # Compose the template
     msg = EmailMessage()
     msg['From'] = "Sequencing Run Notification"
-    to = (f"{email_id},{default}")
+    to = (f"{email_id}")
     msg['To'] = to
     msg['Subject'] = subject
     msg.set_content(body)
@@ -58,7 +56,6 @@ def email_jira_ticket_success(context):
     comment = (f"Your recent run {jira_ticket} / Miso ID {miso_id} has started processing.\n\n"
                  "\n"
                  "Regards,\n"
-                 "NYU Abu Dhabi Core Bioinformatics\n")
     jira_client.add_comment(jira_ticket, comment)
     return
 

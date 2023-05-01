@@ -1,6 +1,5 @@
 from select import select
 from logging import Logger
-from paramiko import SSHClient
 import paramiko
 from typing import Any
 
