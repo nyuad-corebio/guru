@@ -185,32 +185,31 @@ Note:-
 
 ## Usage
 
-- Once login to Airflow UI, you may see the Airflow dags as below.
+#### Once login to Airflow UI, you may see the Airflow dags as below.
 
-<p>
 <img src="/img/guru_dag.png"  align="left"/>
-</p>
+<br>
+
+#### Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
 
 
-- Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
-
-<p>
 <img src="/img/guru_ui_tab.png"  align="left"  />
-</p>
+<br>
 
 
-- Select "Default Sequence Run" 
+#### Select "Default Sequence Run" 
 
-<p>
+
 <img src="/img/guru_ui_template.png"  align="left" />
-</p>
+<br>
 
 
-- Here is the summary for one of the sequence run as per our setup.
+#### Here is the summary for one of the sequence run as per our setup.
 
-<p>
+
 <img src="/img/guru_ui_summary.png"  align="left" />
-</p>
+<br>
+
 
 - `Project Name` Specify small description of the Project for eg:- Run for jacob for single cell.
 - `Miso ID` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
@@ -224,23 +223,25 @@ Note:-
 
 
 
-- If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
-<br>
+#### If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
+
 - <img src="/img/guru_dag_run.png"  align="left" />
+<br>
 
 - Select "10X Sequence Run"
 
-<br>
 <img src="/img/guru_ui_10xui.png"  align="left" />
+<br>
 
 
 **10X Workflow**: Here you can choose the 10X workflows by choosing the appropriate radio button.
 
 - Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
-<p>
+
 - <img src="/img/guru_ui_10x.png"  align="left" />
-</p>
+<br>
+
 
 ## Contact
 
