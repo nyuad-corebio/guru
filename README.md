@@ -4,6 +4,8 @@
 ## Contents
 
 - [Introduction](#introduction)
+    - [Key facts](#key-facts)
+    - [Technologies Used](#technologies-used)
 - [Installation](#installation)
     - [Installing from Docker](#installing-from-docker)
     - [Installing from PyPI](#installing-from-pypi)
@@ -13,18 +15,11 @@
 - [Acknowledgements](#acknowledgements)
 - [Other Useful Links](#other-useful-links)
 
-## Citation
-## Acknowledgements
-## Other useful links
-
-
 ## Introduction
 
 Managing and maintaining a genomics infrastructure requires a multi-layered approach. Typically, that involves a Laboratory Information Management System (LIMS), the Sequencing Instrumentation, the computational Infrastructure to store and process the data, as well as any other additional layers such as project management software (e.g. JIRA). In a production environment, all of these layers need to efficiently communicate and integrate with each other, which can be a complicated task. In addition, the approach needs to be descriptive and yet flexible enough to accommodate new additions to the existing layers. Our solution, GURU (Genomics seqUencing Run aUtomation) addresses this need. GURU is implemented using Apache Airflow that allows for the authoring, scheduling and monitoring of workflows, or DAGs (Directed Acyclic Graph). Specific DAGs have been implemented to handle various sequencing runs, from SingleCell applications, to RNA/DNA sequencing, Short reads vs Long reads, archiving of sequencing runs, initiating specific types of analysis (QC/WGS/WES/RNAseq/ATAC/CHiP etc.), as well as automatically communicate to end-users regarding the status of their samples/runs. GURU has been containerized using Docker to enable easy deployment across various configurations.
 
-
 <img src="/img/guru_title.png"  align="center" />
-
 
 ### Key facts 
 
@@ -61,7 +56,7 @@ You can install GURU using [pip](https://pip.pypa.io/en/stable/) or  [docker](ht
 2. Miso Lims ( Optional:- iskylims or other LIMS tools )
 3. Jira ( Optional:- redmine or other project management softwares )
 
-- Clone the repository and switch to the working directory.
+#### Cloning the repository
 
 ```
 git clone https://github.com/nyuad-corebio/guru
@@ -86,16 +81,14 @@ OAUTH_TOKEN=<token>
 OAUTH_TOKEN_SECRET=<token_secret>
 ```
 
-To bring up the environment, install the pre-requisites above and run the
-following commands.
+To invoke the the docker based installation, issue below commands.
 
-Using docker compose command:
 ``` bash
 docker compose up --build -d
 docker compose restart
 ```
 
-Verify the service using 
+Verify the services
 ``` bash
 docker compose ps 
 ```
@@ -116,7 +109,7 @@ Note:-
 
 Installation using pip based setup as follows:- 
 
-Clone the repository and switch to the working directory.
+#### Cloning the repository
 
 ```
 git clone https://github.com/nyuad-corebio/guru
@@ -194,64 +187,60 @@ Note:-
 
 - Once login to Airflow UI, you may see the Airflow dags as below.
 
-<img src="/img/guru_dag.png"  align="left" />
-
+<p>
+<img src="/img/guru_dag.png"  align="left" width="100" height="100" />
+</p>
 
 
 - Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
 
-<img src="/img/guru_ui_tab.png"  align="left" />
-
+<p>
+<img src="/img/guru_ui_tab.png"  align="left" width="100" height="100" />
+</p>
 
 
 - Select "Default Sequence Run" 
 
-<img src="/img/guru_ui_template.png"  align="left" />
-
+<p>
+<img src="/img/guru_ui_template.png"  align="left" width="100" height="100" />
+</p>
 
 
 - Here is the summary for one of the sequence run as per our setup.
 
-<img src="/img/guru_ui_summary.png"  align="left" />
+<p>
+<img src="/img/guru_ui_summary.png"  align="left" width="100" height="100" />
+</p>
+
+- `Project Name` Specify small description of the Project for eg:- Run for jacob for single cell.
+- `Miso ID` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
+- `Reverse Complement` Specify "yes" or "no", as it will do reverse completement for Index2 sequencing. 
+- `Email Address` You can specify email address one by one with comma seperated ( Email address syntax validation is enabled ).
+- `Jira Ticket` We used jira for updating the status of the run and currently we are running an outdated version of jira v6.3.12 and this is integrated via Oauth keys with the airflow. 
+- `Workflow` We used our custom developed workflow management system for the processing of QC/QT workflow. You can choose snakemake or nextflow or other WMS. Here we specified the path of the directory and where we choose the appropriate yaml files to proceed further.
+- `Adapter Sequence 1` Sequence of adapter to be trimmed for read1
+- `Adapter Sequence 2` Sequence of adapter to be trimmed for read2
+- `Working Directory` Specifying the directory where you have the raw files which to be sequenced. 
 
 
-
-**Project Name**: Specify small description of the Project for eg:- Run for jacob for single cell.
-
-**Miso ID**: We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID. ( Miso Run ID validation is enabled )
-
-**Reverse Complement**: Specify "yes" or "no", as it will do reverse completement for Index2 sequencing. 
-
-**Email Address**: You can specify email address one by one with comma seperated. ( Email address syntax validation is enabled )
-
-**Jira Ticket**: We used jira for updating the status of the run and currently we are running an outdated version of jira v6.3.12 and this is integrated via Oauth keys with the airflow. 
-
-**Workflow**: We used our custom developed workflow management system for the processing of QC/QT workflow. You can choose snakemake or nextflow or other WMS. Here we specified the path of the directory and where we choose the appropriate yaml files to proceed further.
-
-**Adapter Sequence 1** Sequence of adapter to be trimmed for read1
-
-**Adapter Sequence 2** Sequence of adapter to be trimmed for read2
-
-**Working Directory** Specifying the directory where you have the raw files which to be sequenced. 
 
 - If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
-
-- <img src="/img/guru_dag_run.png"  align="left" />
-
-
+<br>
+- <img src="/img/guru_dag_run.png"  align="left" width="100" height="100" />
 
 - Select "10X Sequence Run"
 
-<img src="/img/guru_ui_10xui.png"  align="left" />
-
+<br>
+<img src="/img/guru_ui_10xui.png"  align="left" width="100" height="100" />
 
 
 **10X Workflow**: Here you can choose the 10X workflows by choosing the appropriate radio button.
 
 - Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
-- <img src="/img/guru_ui_10x.png"  align="left" />
+<br>
 
+- <img src="/img/guru_ui_10x.png"  align="left" width="100" height="100" />
 
 
 ## Contact
