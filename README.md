@@ -196,17 +196,25 @@ Note:-
 
 <img src="/img/guru_dag.png"  align="left" />
 
+
+
 - Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
 
 <img src="/img/guru_ui_tab.png"  align="left" />
+
+
 
 - Select "Default Sequence Run" 
 
 <img src="/img/guru_ui_template.png"  align="left" />
 
+
+
 - Here is the summary for one of the sequence run as per our setup.
 
 <img src="/img/guru_ui_summary"  align="left" />
+
+
 
 **Project Name**: Specify small description of the Project for eg:- Run for jacob for single cell 
 **Miso ID**: We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID. ( Miso Run ID validation is enabled )
@@ -222,15 +230,21 @@ Note:-
 
 - <img src="/img/guru_dag_run"  align="left" />
 
+
+
 - Select "10X Sequence Run"
 
 <img src="/img/guru_ui_10xui"  align="left" />
+
+
 
 **10X Workflow**: Here you can choose the 10X workflows by choosing the appropriate radio button.
 
 - Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
 - <img src="/img/guru_ui_10x"  align="left" />
+
+
 
 ## Contact
 
