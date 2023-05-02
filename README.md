@@ -211,24 +211,24 @@ Note:-
 <br>
 
 
-- `Project Name` Specify small description of the Project for eg:- Run for jacob for single cell.
-- `Miso ID` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
-- `Reverse Complement` Specify "yes" or "no", as it will do reverse completement for Index2 sequencing. 
-- `Email Address` You can specify email address one by one with comma seperated ( Email address syntax validation is enabled ).
-- `Jira Ticket` We used jira for updating the status of the run and currently we are running an outdated version of jira v6.3.12 and this is integrated via Oauth keys with the airflow. 
-- `Workflow` We used our custom developed workflow management system for the processing of QC/QT workflow. You can choose snakemake or nextflow or other WMS. Here we specified the path of the directory and where we choose the appropriate yaml files to proceed further.
-- `Adapter Sequence 1` Sequence of adapter to be trimmed for read1
-- `Adapter Sequence 2` Sequence of adapter to be trimmed for read2
-- `Working Directory` Specifying the directory where you have the raw files which to be sequenced. 
+- `Project Name:-` Specify small description of the Project for eg:- Run for jacob for single cell.
+- `Miso ID:-` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
+- `Reverse Complement:-` Specify "yes" or "no", as it will do reverse completement for Index2 sequencing. 
+- `Email Address:-` You can specify email address one by one with comma seperated ( Email address syntax validation is enabled ).
+- `Jira Ticket:-` We used jira for updating the status of the run and currently we are running an outdated version of jira v6.3.12 and this is integrated via Oauth keys with the airflow. 
+- `Workflow:-` We used our custom developed workflow management system for the processing of QC/QT workflow. You can choose snakemake or nextflow or other WMS. Here we specified the path of the directory and where we choose the appropriate yaml files to proceed further.
+- `Adapter Sequence 1:-` Sequence of adapter to be trimmed for read1
+- `Adapter Sequence 2:-` Sequence of adapter to be trimmed for read2
+- `Working Directory:-` Specifying the directory where you have the raw files which to be sequenced. 
 
 
 
 #### If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
 
-- <img src="/img/guru_dag_run.png"  align="left" />
+<img src="/img/guru_dag_run.png"  align="left" />
 <br>
 
-- Select "10X Sequence Run"
+#### Select "10X Sequence Run"
 
 <img src="/img/guru_ui_10xui.png"  align="left" />
 <br>
@@ -236,7 +236,7 @@ Note:-
 
 **10X Workflow**: Here you can choose the 10X workflows by choosing the appropriate radio button.
 
-- Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
+#### Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
 
 <p>
 <img src="/img/guru_ui_10x.png"  align="left" />
