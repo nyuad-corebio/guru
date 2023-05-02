@@ -185,12 +185,12 @@ Note:-
 
 ## Usage
 
-#### Once login to Airflow UI, you may see the Airflow dags as below.
+- **Once login to Airflow UI, you may see the Airflow dags as below.**
 
 <img src="/img/guru_dag.png"  align="left"/>
 <br>
 
-#### Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
+- **Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.**  
 
 
 <img src="/img/guru_ui_tab.png"  align="left"  />
