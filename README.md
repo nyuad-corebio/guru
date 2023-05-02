@@ -1,6 +1,5 @@
 # GURU: Genomics seqUencing Run aUtomation
 
-
 ## Contents
 
 - [Introduction](#introduction)
@@ -185,31 +184,21 @@ Note:-
 
 ## Usage
 
-- **Once login to Airflow UI, you may see the Airflow dags as below.**
+- **DAGs**: Once login to Airflow UI, you may see the Airflow dags as below.
 
 <img src="/img/guru_dag.png"  align="left"/>
-<br>
 
-- **Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.**  
-
+- **User Interface**: Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
 
 <img src="/img/guru_ui_tab.png"  align="left"  />
-<br>
 
-
-#### Select "Default Sequence Run" 
-
+- **Sequence Run**: Select "Default Sequence Run" from "Demultiplex Runs" tab. 
 
 <img src="/img/guru_ui_template.png"  align="left" />
-<br>
 
-
-#### Here is the summary for one of the sequence run as per our setup.
-
+- **Sequence Run Summary**: Here is the summary  sequence run as per our setup.
 
 <img src="/img/guru_ui_summary.png"  align="left" />
-<br>
-
 
 - `Project Name:-` Specify small description of the Project for eg:- Run for jacob for single cell.
 - `Miso ID:-` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
@@ -221,32 +210,23 @@ Note:-
 - `Adapter Sequence 2:-` Sequence of adapter to be trimmed for read2
 - `Working Directory:-` Specifying the directory where you have the raw files which to be sequenced. 
 
-
-
-#### If you choose "Check Run Status", you may see the status of Airlfow Dagruns. 
+- **Run Status**: If you choose "Check Run Status", you may see the status of Airlfow Dagruns started progressing.. 
 
 <img src="/img/guru_dag_run.png"  align="left" />
-<br>
 
-#### Select "10X Sequence Run"
+- **10X Run**: Select "10X Sequence Run" from "Demultiplex Runs" tab.
 
 <img src="/img/guru_ui_10xui.png"  align="left" />
-<br>
-
 
 - `10X Workflow:-` Here you can choose the 10X workflows by choosing the appropriate radio button.
 
-#### Similarly if you fill and submit the other workflow which is "10X Sequence Run". You may see the status of Dagruns.
+- **10X Run Summary**: Similarly if you fill and submit the  "10X Sequence Run". You may see the status of Dagruns.
 
-<p>
 <img src="/img/guru_ui_10x.png"  align="left" />
-</p>
-
 
 ## Contact
 
 For any query or feedback related to GURU by posting a [Github issue](https://github.com/nyuad-corebio/guru/issues).
-
 
 ## Citation
 
@@ -256,7 +236,6 @@ If you use GURU in your research or publications, please cite our [Github page](
 ## Acknowledgements
 
 This work was supported by Tamkeen under the NYU Abu Dhabi Research Institute Award to the NYUAD Center for Genomics and Systems Biology (ADHPG-CGSB). We would also like to acknowledge the High Performance Computing department at NYU Abu Dhabi for the computational resources and their continuous support.
-
 
 ## Other Useful Links
 
