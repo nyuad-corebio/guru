@@ -66,6 +66,7 @@ cd guru
 
 Defining the environment variables. 
 Note:- Jira is optional, if you are not using customize the .env file accordingly.
+Note:- Since the jira integration is based on Oauthv1, using a private key. You should place key name "jira.pem" in "keys" folder.
 
 ``` bash
 cat .env
@@ -138,6 +139,7 @@ pip3 install -r pip-requirements.txt
 ```
 
 Install jira module ( Optional )
+Note:- Since the jira integration is based on Oauthv1, using a private key. You should place key name "jira.pem" in ~/.ssh/ path. 
 
 ``` bash
 cd pkgs
