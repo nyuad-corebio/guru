@@ -232,9 +232,9 @@ $~~~~$
 
 <img src="/img/guru_ui_10xui.png"  align="left" />
 
-$~~~~$
-
 - `10X Workflow:-` Here you can choose the 10X workflows by choosing the appropriate radio button.
+
+$~~~~$
 
 - **10X Run Summary**: Similarly if you fill and submit the  "10X Sequence Run". You may see the status of Dagruns.
 
