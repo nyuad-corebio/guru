@@ -198,13 +198,19 @@ $~~~~$
 
 <img src="/img/guru_ui_tab.png"  align="left"  />
 
+$~~~~$
+
 - **Sequence Run**: Select "Default Sequence Run" from "Demultiplex Runs" tab. 
 
 <img src="/img/guru_ui_template.png"  align="left" />
 
+$~~~~$
+
 - **Sequence Run Summary**: Here is the summary  sequence run as per our setup.
 
 <img src="/img/guru_ui_summary.png"  align="left" />
+
+$~~~~$
 
 - `Project Name:-` Specify small description of the Project for eg:- Run for jacob for single cell.
 - `Miso ID:-` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
@@ -220,15 +226,23 @@ $~~~~$
 
 <img src="/img/guru_dag_run.png"  align="left" />
 
+$~~~~$
+
 - **10X Run**: Select "10X Sequence Run" from "Demultiplex Runs" tab.
 
 <img src="/img/guru_ui_10xui.png"  align="left" />
+
+$~~~~$
 
 - `10X Workflow:-` Here you can choose the 10X workflows by choosing the appropriate radio button.
 
 - **10X Run Summary**: Similarly if you fill and submit the  "10X Sequence Run". You may see the status of Dagruns.
 
+$~~~~$
+
 <img src="/img/guru_ui_10x.png"  align="left" />
+
+$~~~~$
 
 ## Contact
 
