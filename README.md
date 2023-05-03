@@ -192,6 +192,11 @@ Note:-
 
 <img src="/img/guru_dag.png"  align="left"/>
 
+<br>
+<br>
+<br>
+<br>
+
 - **User Interface**: Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
 
 <img src="/img/guru_ui_tab.png"  align="left"  />
