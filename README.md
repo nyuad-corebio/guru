@@ -20,6 +20,8 @@ Managing and maintaining a genomics infrastructure requires a multi-layered appr
 
 <img src="/img/guru_title.png"  align="center" />
 
+$~~~~~~$
+
 ### Key facts 
 
 - Customized user interface plugins using Apache Flask Web Framework, ensuring DAGs are bound to their respective plugins. 
@@ -234,11 +236,7 @@ $~~~~$
 
 - `10X Workflow:-` Here you can choose the 10X workflows by choosing the appropriate radio button.
 
-$~~~~$
-
 - **10X Run Summary**: Similarly if you fill and submit the  "10X Sequence Run". You may see the status of Dagruns.
-
-$~~~~$
 
 <img src="/img/guru_ui_10x.png"  align="left" />
 
