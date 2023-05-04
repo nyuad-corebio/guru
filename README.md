@@ -84,6 +84,12 @@ OAUTH_TOKEN=<token>
 OAUTH_TOKEN_SECRET=<token_secret>
 ```
 
+Update the ownership of the directory. For eg:- we run airflow as UID - 50000
+``` bash
+chown -R 50000  ./guru
+```
+
+
 To invoke the the docker based installation, issue below commands.
 
 ``` bash
