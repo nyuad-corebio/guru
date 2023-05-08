@@ -51,7 +51,13 @@ with open(outputFileName, 'w') as fout:
     fout.writelines(lines)
 
 os.rename(outputFileName, out)
+
+#Removes 0's in the index value
+#for eg:- it changes from SI-GA-E06 NOT SI-GA-E6
 subprocess.call(["sed -i 's/0*\([0-9]*$\)/\\1/'  10xsimple.csv"], shell=True)
+
+#Removes "." and "whitespaces" in Samplename field
+subprocess.call(["awk -i inplace 'BEGIN{FS=OFS=\",\"}/^\*+,/{gsub(/[\.\" \"<`\\x27]/,\"_\",$2);print;next}1' 10xsimple.csv"], shell=True)
 
 os.remove("output1.csv")
 

@@ -37,13 +37,12 @@ $~~~~~~$
 - Python
 - Shell Scripting
 - Python Flask Wtforms
-- Jira (v6.3.12)
+- JIRA (v6.3.12)
 
 
 #### Important Note
-- The jira we used the version is an outdated one and the integration is based on RESTAPI with Oauthv1. If you require assistance with other project management software or latest jira version, then we will help. 
-- LIMS we used miso lims software and if you need assistance with other lims integration, we will help. 
-
+- The JIRA version we are using is outdated, and the integration is based on RESTAPI with Oauthv1. If you require assistance with other project management software or a later version of JIRA, then please contact us to see if we can help. 
+- We use MISO as our LIMS. If you require assistance integrating GURU with your existing LIMS, then please contact us to see if we can help.
 ## Installation
 
 You can install GURU using [pip](https://pip.pypa.io/en/stable/) or  [docker](https://www.docker.com/). The simplest way to get GURU up and running quickly is to use Docker. 
@@ -54,8 +53,8 @@ You can install GURU using [pip](https://pip.pypa.io/en/stable/) or  [docker](ht
 #### Prerequisites
 
 1. [Install Docker Latest Version V23.0.2+](https://docs.docker.com/engine/install/)
-2. Miso Lims ( Optional:- iskylims or other LIMS tools )
-3. Jira ( Optional:- redmine or other project management softwares )
+2. MISO LIMS ( Optional:- iskylims or other LIMS tools )
+3. JIRA ( Optional:- Redmine or other project management software )
 
 #### Cloning the repository
 
@@ -68,8 +67,8 @@ cd guru
 
 Defining the environment variables. 
 Note:- 
-- Jira is optional, if you are not using customize the .env file accordingly.
-- Since the jira integration is based on Oauthv1, using a private key. You should place key name "jira.pem" in "keys" folder.
+- JIRA is optional, if you are not using JIRA then customize the .env file accordingly.
+- Since JIRA integration is based on Oauthv1, using a private key, you should place a key called "jira.pem" in the "keys" folder.
 
 ``` bash
 cat .env
@@ -77,20 +76,41 @@ cat .env
 AIRFLOW_UID=<Airflow USER ID - Default is 50000>
 AIRFLOW_URL=<IP Address or Hostname of the host machine>
 AIRFLOW_PORT=8080
-### Jira variables
+### JIRA variables
 CONSUMER_KEY=<key_name>
 JIRA_SERVER=<URL or IP Address>
 OAUTH_TOKEN=<token>
 OAUTH_TOKEN_SECRET=<token_secret>
 ```
 
-Update the ownership of the directory. For eg:- we run airflow as UID - 50000
+Update the ownership of the directory. For eg:- we run Airflow as UID - 50000
 ``` bash
 chown -R 50000  ./guru
 ```
 
+Update the Airflow connection parameters for ssh, smtp and mysql.
+Note:- Modify the ssh key path, user credentails etc.
 
-To invoke the the docker based installation, issue below commands.
+``` bash
+$vim scripts/airflow_conn.sh
+#!/bin/bash
+
+#############################################################################
+# Arguments for Airflow initialization
+# So far these protocols SSH / MYSQL / SMTP needed now to connect to cluster
+############################################################################
+
+## Defining SSH connection 
+airflow connections add  airflow_docker_ssh   --conn-type ssh --conn-host < hostname or IP address > --conn-login user --conn-port 22 --conn-extra '{"key_file": "/home/airflow/.ssh/id_rsa", "missing_host_key_policy": "AutoAddPolicy"}'
+
+## Defining SMTP connection 
+airflow connections add airflow_docker_email --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
+
+## Defining Mysql Connection 
+airflow connections add airflow_docker_mysql --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
+```
+
+To invoke the Docker based installation, issue the commands below.
 
 ``` bash
 docker compose up --build -d
@@ -107,16 +127,16 @@ Validate the logs
 docker compose logs -f 
 ```
 
-To access Airflow User Interface [http://IP-address:8080](http://IP-address:8080)
+To access the Airflow User Interface [http://IP-address:8080](http://IP-address:8080)
 and use the credentials **airflow**/**airflow**.
 
 Note:- 
 - If you run this service on a server, specify the (IP-address or hostname):8080 on the browser. 
-- If you run this service on laptop, specify localhost:8080 on the browser
+- If you run this service on a standalone machine (e.g. laptop), specify localhost:8080 on the browser
 
 ### Installing from PyPI
 
-Installation using pip based setup as follows:- 
+Installation using pip:- 
 
 #### Cloning the repository
 
@@ -126,14 +146,14 @@ cd guru
 ```
 
 Define the environment variable in your .bashrc or .zshrc of you favourite shell.
-Note:- Jira is optional, if you are not using customize the environment file accordingly.
+Note:- JIRA is optional, if you are not using JIRA then customize the environment file accordingly (e.g. .bashrc / .zshrc).
 
 ``` bash
 ### Airflow variables
 export AIRFLOW_HOME=<Path-to-airflow-home>
 export AIRFLOW_URL=<IP Address or Hostname of the host machine>
 export AIRFLOW_PORT=8080
-###Jira env variables
+###JIRA env variables
 export CONSUMER_KEY=<key_name>
 export JIRA_SERVER=<URL or IP Address>
 export OAUTH_TOKEN=<token>
@@ -141,22 +161,22 @@ export OAUTH_TOKEN_SECRET=<token_secret>
 ```
 
 
-Install the prerequisite python packages using below command
+Install the prerequisite python packages using commands below.
 
 ``` bash
 pip3 install -r pip-requirements.txt
 ```
 
-Install jira module ( Optional )
+Install the JIRA module ( Optional )
 Note:-
-- Since the jira integration is based on Oauthv1, using a private key. You should place key name "jira.pem" in ~/.ssh/ path. 
+- Since the JIRA integration is based on Oauthv1, using a private key. You should place a key file called "jira.pem" in the ```~/.ssh/``` path. 
 
 ``` bash
 cd pkgs
 sh pip_jira.sh
 ```
 
-Initialize airflow db and this will create airflow.cfg in the AIRFLOW_HOME directory which defined as variable.
+Initialize airflow db and this will create airflow.cfg in the AIRFLOW_HOME directory (defined above).
 
 ``` bash
 airflow db init
@@ -174,69 +194,98 @@ airflow users create \
 --email <specify-email>
 ```
 
-Update the airflow connection parameters for ssh, smtp and mysql.
+Update the Airflow connection parameters for ssh, smtp and mysql.
 Note:- Modify the ssh key path, user credentails etc.
+
 ``` bash
-sh scripts/airflow_conn.sh
+$vim scripts/airflow_conn_pip.sh
+#!/bin/bash
+
+#############################################################################
+# Arguments for Airflow initialization
+# So far these protocols SSH / MYSQL / SMTP needed now to connect to cluster
+############################################################################
+
+## Defining SSH connection
+airflow connections add  <ssh_conn_name>   --conn-type ssh --conn-host < hostname or IP address --conn-login user --conn-port 22 --conn-extra '{"key_file": "<Path-to-SSH-private-key>", "missing_host_key_policy": "AutoAddPolicy"}'
+
+## Defining SMTP connection
+airflow connections add <smtp_conn_name> --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
+
+## Defining Mysql Connection
+airflow connections add <mysql_conn_name> --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
 ```
 
-Launch below two commands on each terminal or you can run as a background one after the other. 
+In order to start the Airflow instance (according to the instructions at [Airflow](https://airflow.apache.org/docs/apache-airflow/2.5.3/start.html)), we need to open 2 terminal windows (these can be 2 separate tabs).
+In the first tab (or window), launch the command below to start the Airflow scheduler service. 
 
 ``` bash
 airflow scheduler
+```
+
+Once the above command starts (and there are no errors), launch the second command (below) in the second tab (or window).
+
+``` bash
 airflow webserver
 ```
 
-To access Airflow User Interface [http://IP-address:8080](http://IP-address:8080)
-and use the credentials **airflow**/**airflow**.
+To access the Airflow User Interface, open a web browser and go to [http://IP-address:8080](http://IP-address:8080)
+and use the following username/password credentials **airflow**/**airflow**.
 
 Note:- 
 - If you run this service on a server, specify the (IP-address or hostname):8080 on the browser. 
-- If you run this service on laptop, specify localhost:8080 on the browser
+- If you run this service on a standalone machine (e.g. laptop), specify localhost:8080 on the browser
 
+
+To launch a "standard" paired end dual index (with reverse complement i7) DAG...
 ## Usage
 
-- **DAGs**: Once login to Airflow UI, you may see the Airflow dags as below.
+- **DAGs**: Once you have successfully logged into the Airflow UI, the available Airflow DAGs should be visible.
 
 <img src="/img/guru_dag.png"  align="left"/>
 
 $~~~~$
 
-- **User Interface**: Navigate to "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow Dags.  
+- **User Interface**: Navigate to the "Demultiplex Runs" tab to see the appropriate custom UI input for the Airflow DAGs.  
 
 <img src="/img/guru_ui_tab.png"  align="left"  />
 
 $~~~~$
 
-- **Sequence Run**: Select "Default Sequence Run" from "Demultiplex Runs" tab. 
+- **Sequence Run**: Select "Default Sequence Run" from the "Demultiplex Runs" tab. 
 
 <img src="/img/guru_ui_template.png"  align="left" />
 
 $~~~~$
 
-- **Sequence Run Summary**: Here is the summary  sequence run as per our setup.
+- **Sequence Run Summary**: Below is just a default "standard" sequencing run setup.
 
 <img src="/img/guru_ui_summary.png"  align="left" />
 
 $~~~~$
 
-- `Project Name:-` Specify small description of the Project for eg:- Run for jacob for single cell.
-- `Miso ID:-` We used Miso Lims for the sample tracking and the samplesheet information associated with the sequencing is fetching from Miso Mysql database based on Run ID( Miso Run ID validation is enabled ).
-- `Reverse Complement:-` Specify "yes" or "no", as it will do reverse completement for Index2 sequencing. 
-- `Email Address:-` You can specify email address one by one with comma seperated ( Email address syntax validation is enabled ).
-- `Jira Ticket:-` We used jira for updating the status of the run and currently we are running an outdated version of jira v6.3.12 and this is integrated via Oauth keys with the airflow. 
-- `Workflow:-` We used our custom developed workflow management system for the processing of QC/QT workflow. You can choose snakemake or nextflow or other WMS. Here we specified the path of the directory and where we choose the appropriate yaml files to proceed further.
-- `Adapter Sequence 1:-` Sequence of adapter to be trimmed for read1
-- `Adapter Sequence 2:-` Sequence of adapter to be trimmed for read2
-- `Working Directory:-` Specifying the directory where you have the raw files which to be sequenced. 
+Below is a description of the fields.
 
-- **Run Status**: If you choose "Check Run Status", you may see the status of Airlfow Dagruns started progressing.. 
+- `Project Name:-` (Optional) Specify a brief description of the Project eg:- "10x Single cell RNAseq for Marcus Lab".
+- `Miso ID:-` Using the unique sequencing run ID number, which is defined in our MISO LIMS, GURU will automatically gather the required SampleSheet information of the sequenced samples. This is needed in order to generate a Demultiplexing sheet.
+- `Reverse Complement:-` Defines whether or not to reverse complement the second index (i7). This only applies to "standard" sequencing run setups (DAGs). 
+- `Email Address:-` Here, a user can specify the email address(es) of one or multiple users that need to be notified regarding the progress. The address(es) should be comma-separated (no whitspaces), and email validation is enabled.
+- `Jira Ticket:-` We use JIRA for logging the run status. Currently, we are running an older version of JIRA (v6.3.12), which is integrated with Airflows using Oauth keys. 
+- `Workflow:-` We use [BioSAILs](https://www.biorxiv.org/content/biorxiv/early/2019/01/02/509455.full.pdf) as our workflow management system (WMS) for processing the raw sequencing reads (QC/QT). You can choose any other WMS such as snakemake or nextflow if you so choose. In this variable we also specify the location of the appropriate QC/QT YAML formatted workflow file that BioSAILs will use.
+- `Adapter Sequence 1:-` Sequence of adapter to be trimmed for read1.
+- `Adapter Sequence 2:-` Sequence of adapter to be trimmed for read2.
+- `Working Directory:-` Full path to the location of the sequencing run folder. 
+
+- **Run Status**: Clicking on the "Check Run Status" button will show you the status (progress) of the specific Dagrun. 
 
 <img src="/img/guru_dag_run.png"  align="left" />
 
 $~~~~$
 
-- **10X Run**: Select "10X Sequence Run" from "Demultiplex Runs" tab.
+
+- **10X Run**: To launch a "10x sequencing run", then select the appropriate DAG.
+Please note that under the "10x Sequence Run" DAG, you will have multiple options depending on the nature of your run (e.g. scRNA->cellranger, scATAC->cellranger_atac etc.).
+
 
 <img src="/img/guru_ui_10xui.png"  align="left" />
 
@@ -250,12 +299,11 @@ $~~~~$
 
 ## Contact
 
-For any query or feedback related to GURU by posting a [Github issue](https://github.com/nyuad-corebio/guru/issues).
+If you need to contact us for feedback, queries, or to raise an issue, you can do so using the issues page [Github issue](https://github.com/nyuad-corebio/guru/issues).
 
 ## Citation
 
 If you use GURU in your research or publications, please cite our [Github page](https://github.com/nyuad-corebio/guru).
-
 
 ## Acknowledgements
 
@@ -264,7 +312,7 @@ This work was supported by Tamkeen under the NYU Abu Dhabi Research Institute Aw
 ## Other Useful Links
 
 - [CGSB Webpage](https://cgsb.abudhabi.nyu.edu) : for news and updates
-- [Biosails](https://www.biorxiv.org/content/biorxiv/early/2019/01/02/509455.full.pdf)
+- [BioSAILs](https://www.biorxiv.org/content/biorxiv/early/2019/01/02/509455.full.pdf)
 - [Airflow](https://airflow.apache.org/) 
-- [Miso Lims](https://github.com/miso-lims/miso-lims)
+- [MISO LIMS](https://github.com/miso-lims/miso-lims)
 - [Docker](https://www.docker.com/)
