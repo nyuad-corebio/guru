@@ -66,6 +66,7 @@ cd guru
 #### Setting up the environment
 
 Defining the environment variables. 
+
 Note:- 
 - JIRA is optional, if you are not using JIRA then customize the .env file accordingly.
 - Since JIRA integration is based on Oauthv1, using a private key, you should place a key called "jira.pem" in the "keys" folder.
@@ -89,7 +90,9 @@ chown -R 50000  ./guru
 ```
 
 Update the Airflow connection parameters for ssh, smtp and mysql.
-Note:- Modify the ssh key path, user credentails etc.
+
+Note:-
+- Modify the ssh key path, user credentails etc.
 
 ``` bash
 $vim scripts/airflow_conn.sh
@@ -146,7 +149,9 @@ cd guru
 ```
 
 Define the environment variable in your .bashrc or .zshrc of you favourite shell.
-Note:- JIRA is optional, if you are not using JIRA then customize the environment file accordingly (e.g. .bashrc / .zshrc).
+
+Note:-
+- JIRA is optional, if you are not using JIRA then customize the environment file accordingly (e.g. .bashrc / .zshrc).
 
 ``` bash
 ### Airflow variables
@@ -195,7 +200,9 @@ airflow users create \
 ```
 
 Update the Airflow connection parameters for ssh, smtp and mysql.
-Note:- Modify the ssh key path, user credentails etc.
+
+Note:-
+- Modify the ssh key path, user credentails etc.
 
 ``` bash
 $vim scripts/airflow_conn_pip.sh
