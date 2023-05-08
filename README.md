@@ -173,6 +173,7 @@ pip3 install -r pip-requirements.txt
 ```
 
 Install the JIRA module ( Optional )
+
 Note:-
 - Since the JIRA integration is based on Oauthv1, using a private key. You should place a key file called "jira.pem" in the ```~/.ssh/``` path. 
 
