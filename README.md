@@ -215,7 +215,7 @@ $vim scripts/airflow_conn_pip.sh
 ############################################################################
 
 ## Defining SSH connection
-airflow connections add  <ssh_conn_name>   --conn-type ssh --conn-host < hostname or IP address --conn-login user --conn-port 22 --conn-extra '{"key_file": "<Path-to-SSH-private-key>", "missing_host_key_policy": "AutoAddPolicy"}'
+airflow connections add  <ssh_conn_name>   --conn-type ssh --conn-host < hostname or IP address > --conn-login user --conn-port 22 --conn-extra '{"key_file": "<Path-to-SSH-private-key>", "missing_host_key_policy": "AutoAddPolicy"}'
 
 ## Defining SMTP connection
 airflow connections add <smtp_conn_name> --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
