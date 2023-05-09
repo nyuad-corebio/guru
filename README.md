@@ -84,7 +84,7 @@ OAUTH_TOKEN=<token>
 OAUTH_TOKEN_SECRET=<token_secret>
 ```
 
-Update the ownership of the directory. For eg:- we run Airflow as UID - 50000
+Update the ownership of the directory. (For eg:- we run Airflow as UID - 50000).
 ``` bash
 chown -R 50000  ./guru
 ```
@@ -100,7 +100,7 @@ $vim scripts/airflow_conn.sh
 
 #############################################################################
 # Arguments for Airflow initialization
-# So far these protocols SSH / MYSQL / SMTP needed now to connect to cluster
+# So far these protocols SSH / MYSQL / SMTP needed now to connect to cluster.
 ############################################################################
 
 ## Defining SSH connection 
@@ -135,7 +135,7 @@ and use the credentials **airflow**/**airflow**.
 
 Note:- 
 - If you run this service on a server, specify the (IP-address or hostname):8080 on the browser. 
-- If you run this service on a standalone machine (e.g. laptop), specify localhost:8080 on the browser
+- If you run this service on a standalone machine (e.g. laptop), specify localhost:8080 on the browser.
 
 ### Installing from PyPI
 
@@ -211,7 +211,7 @@ $vim scripts/airflow_conn_pip.sh
 
 #############################################################################
 # Arguments for Airflow initialization
-# So far these protocols SSH / MYSQL / SMTP needed now to connect to cluster
+# So far these protocols SSH / MYSQL / SMTP needed now to connect to cluster.
 ############################################################################
 
 ## Defining SSH connection
@@ -242,7 +242,7 @@ and use the following username/password credentials **airflow**/**airflow**.
 
 Note:- 
 - If you run this service on a server, specify the (IP-address or hostname):8080 on the browser. 
-- If you run this service on a standalone machine (e.g. laptop), specify localhost:8080 on the browser
+- If you run this service on a standalone machine (e.g. laptop), specify localhost:8080 on the browser.
 
 
 To launch a "standard" paired end dual index (with reverse complement i7) DAG...
@@ -292,7 +292,7 @@ $~~~~$
 
 
 - **10X Run**: To launch a "10x sequencing run", then select the appropriate DAG.
-Please note that under the "10x Sequence Run" DAG, you will have multiple options depending on the nature of your run (e.g. scRNA->cellranger, scATAC->cellranger_atac etc.).
+Please note that under the "10x Sequence Run" DAG, you will have multiple options depending on the nature of your run (eg:- scRNA->cellranger, scATAC->cellranger_atac etc.).
 
 
 <img src="/img/guru_ui_10xui.png"  align="left" />
