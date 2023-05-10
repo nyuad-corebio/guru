@@ -32,7 +32,7 @@ $~~~~~~$
 
 ### Technologies Used
 
-- Apache Airflow
+- Apache Airflow ( v2.5.3 )
 - Docker
 - Python
 - Shell Scripting
