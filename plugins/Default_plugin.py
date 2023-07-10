@@ -114,7 +114,7 @@ class MyForm(Form):
     #adaptor_seqone = RadioField('Adapter Sequence 1', choices=[('None','None'),('AAACTYAAAKRAATTGRCGGCCCTGGCTGACTA','16S_EMP_read_1'),('AGATCGGAAGAGCACACGTCTGAACTCCAGTCA','NEB_Read_1'),('CTGTCTCTTATACACATCT','Nextera_Read_1'),('AGATCGGAAGAGCACACGTCTGAACTCCAGTCA','TruSeq_read_1')], validators=[validators.InputRequired(message='Please select an option')])
     #adaptor_seqtwo = RadioField('Adapter Sequence 2', choices=[('None','None'),('TTACCGCGGCKGCTGRCACACAATTACCAT','16S_EMP_read_2'),('AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT','NEB_Read_2'),('CTGTCTCTTATACACATCT','Nextera_Read_2'),('AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT','TruSeq_Read_2')], validators=[validators.InputRequired(message='Please select an option')])
     work_dir = StringField('Working Directory',[InputRequired(),file_validate], render_kw={"placeholder": "Specify the work directory path - eg:- /archive/gencoreseq/XXXX"})
-    jira_ticket = StringField('Jira Ticket', [InputRequired()], render_kw={"placeholder": "Enter the Jira ticket number: (eg:- NCS-222)"})
+    jira_ticket = StringField('Jira Ticket', [InputRequired(),validate_jira_ticket], render_kw={"placeholder": "Enter the Jira ticket number: (eg:- NCS-222)"})
     scratch_dir = StringField('Scratch Directory')
     archive_dir = StringField('Archive Directory')
 
