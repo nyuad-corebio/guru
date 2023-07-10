@@ -18,5 +18,5 @@ Flask-Session
 Flask-SQLAlchemy
 Flask-WTF
 pandas
-jira
+jira==3.2.0
 pymysql 
