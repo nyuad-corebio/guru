@@ -77,6 +77,10 @@ cat .env
 AIRFLOW_UID=<Airflow USER ID - Default is 50000>
 AIRFLOW_URL=<IP Address or Hostname of the host machine>
 AIRFLOW_PORT=8080
+
+### QC Work directory Path
+QC_WORKDIR=<Path-to-workflow-directory>
+
 ### JIRA variables
 CONSUMER_KEY=<key_name>
 JIRA_SERVER=<URL or IP Address>
@@ -158,6 +162,10 @@ Note:-
 export AIRFLOW_HOME=<Path-to-airflow-home>
 export AIRFLOW_URL=<IP Address or Hostname of the host machine>
 export AIRFLOW_PORT=8080
+
+### QC Work directory Path
+export QC_WORKDIR=<Path-to-workflow-directory>
+
 ###JIRA env variables
 export CONSUMER_KEY=<key_name>
 export JIRA_SERVER=<URL or IP Address>
