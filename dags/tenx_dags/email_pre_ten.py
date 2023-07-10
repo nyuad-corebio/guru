@@ -55,7 +55,7 @@ def email_jira_ticket_success(context):
     jira_ticket = context['dag_run'].conf['jira_ticket']
     comment = (f"Your recent run {jira_ticket} / Miso ID {miso_id} has started processing.\n\n"
                  "\n"
-                 "Regards,\n"
+                 "Regards,\n")
     jira_client.add_comment(jira_ticket, comment)
     return
 

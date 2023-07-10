@@ -62,7 +62,7 @@ def email_jira_ticket_success(context):
                  f"{scratch_dir}/{jira_ticket}/\n"
                  "{code}"
                  "\n"
-                 "Regards,\n"
+                 "Regards,\n")
     jira_client.add_comment(jira_ticket, comment)
     return
 
