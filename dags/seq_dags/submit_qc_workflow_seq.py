@@ -45,9 +45,8 @@ def submit_qc_workflow_to_slurm(ds, **kwargs):
         return
     else:
 
-        #ssh, sftp = initialize_ssh('gencore', 'jubail.abudhabi.nyu.edu')
         #Defining SSH connection
-        ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+        ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
         ssh = ssh_hook.get_conn()
         sftp = ssh.open_sftp()
     # File existence check

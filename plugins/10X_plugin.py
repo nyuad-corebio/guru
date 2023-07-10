@@ -27,7 +27,7 @@ bp = Blueprint(
 def validate_miso_id(form, field):
     """Defining the mysql access information""" 
     # Using mysqlhook module loaded mysql connections to get the credentials.
-    mysql_hook = MySqlHook(mysql_conn_id='airflow_docker_mysql')
+    mysql_hook = MySqlHook(mysql_conn_id='guru_mysql')
     conn = mysql_hook.get_conn()
     cursor = conn.cursor()
 
@@ -45,7 +45,7 @@ def validate_miso_id(form, field):
 """Function to check if the work directory given is exist or not."""
 def file_validate(form, field):
     # Get the path and assign to a list
-    ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+    ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
     ssh_client = ssh_hook.get_conn()
     sftp = ssh_client.open_sftp()
     dir = field.data

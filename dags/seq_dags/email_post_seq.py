@@ -29,7 +29,7 @@ def generate_email_task(ds, **kwargs):
 
 
     #Defining SSH connection
-    ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+    ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
     ssh = ssh_hook.get_conn()
 
     # File existence check
@@ -59,7 +59,7 @@ def generate_email_task(ds, **kwargs):
     attachments = [(file_path_file, file_obj)]
 
     # Set the SMTP Connection ID
-    smtp_conn_id = 'airflow_docker_email'
+    smtp_conn_id = 'guru_email'
     smtp_hook = BaseHook.get_connection(smtp_conn_id)
 
     # SMTP credentials
@@ -107,7 +107,7 @@ def email_jira_ticket_success(context):
     file_path_file = os.path.basename(file_path)
 
     #Defining SSH connection
-    ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+    ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
     ssh = ssh_hook.get_conn()
 
 #   Here copy the file from remote server and write as open file

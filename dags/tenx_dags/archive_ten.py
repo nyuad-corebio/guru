@@ -25,7 +25,7 @@ def generate_archive_scratch_dir_command(scratch_dir):
 
 def archive_scratch_dir_folder(ds, **kwargs):
     #Defining SSH connection 
-    ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+    ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
     ssh = ssh_hook.get_conn()
 
     scratch_dir = kwargs['dag_run'].conf['scratch_dir']

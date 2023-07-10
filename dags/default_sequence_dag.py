@@ -24,7 +24,7 @@ dag = DAG('default_sequence', description='Default Sequence DAG',
           start_date=datetime(2023, 4, 1), catchup=False)
 
 """Retriving ssh connection parameter"""
-ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
 ssh_hook.no_host_key_check = True
 
 """Defining work directory to scratch rsync shell command, this is triggered via SSHOperator

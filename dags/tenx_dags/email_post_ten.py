@@ -28,7 +28,7 @@ def generate_email_task(ds, **kwargs):
                  "Regards\n")
 
     # Set the SMTP Connection ID
-    smtp_conn_id = 'airflow_docker_email'  
+    smtp_conn_id = 'guru_email'  
     smtp_hook = BaseHook.get_connection(smtp_conn_id)
 
     # SMTP credentials

@@ -125,7 +125,7 @@ def generate_demultiplex_command(kwargs):
 
 
 def run_demultiplex_task(ds, **kwargs):
-    ssh_hook = SSHHook(ssh_conn_id='airflow_docker_ssh')
+    ssh_hook = SSHHook(ssh_conn_id='guru_ssh')
     ssh = ssh_hook.get_conn()
     sftp = ssh.open_sftp()
     

@@ -108,13 +108,13 @@ $vim scripts/airflow_conn.sh
 ############################################################################
 
 ## Defining SSH connection 
-airflow connections add  airflow_docker_ssh   --conn-type ssh --conn-host < hostname or IP address > --conn-login user --conn-port 22 --conn-extra '{"key_file": "/home/airflow/.ssh/id_rsa", "missing_host_key_policy": "AutoAddPolicy"}'
+airflow connections add  guru_ssh   --conn-type ssh --conn-host < hostname or IP address > --conn-login user --conn-port 22 --conn-extra '{"key_file": "/home/airflow/.ssh/id_rsa", "missing_host_key_policy": "AutoAddPolicy"}'
 
 ## Defining SMTP connection 
-airflow connections add airflow_docker_email --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
+airflow connections add guru_email --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
 
 ## Defining Mysql Connection 
-airflow connections add airflow_docker_mysql --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
+airflow connections add guru_mysql --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
 ```
 
 To invoke the Docker based installation, issue the commands below.
@@ -223,13 +223,13 @@ $vim scripts/airflow_conn_pip.sh
 ############################################################################
 
 ## Defining SSH connection
-airflow connections add  <ssh_conn_name>   --conn-type ssh --conn-host < hostname or IP address > --conn-login user --conn-port 22 --conn-extra '{"key_file": "<Path-to-SSH-private-key>", "missing_host_key_policy": "AutoAddPolicy"}'
+airflow connections add  guru_ssh   --conn-type ssh --conn-host < hostname or IP address > --conn-login user --conn-port 22 --conn-extra '{"key_file": "<Path-to-SSH-private-key>", "missing_host_key_policy": "AutoAddPolicy"}'
 
 ## Defining SMTP connection
-airflow connections add <smtp_conn_name> --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
+airflow connections add guru_email --conn-type email --conn-host smtp.gmail.com --conn-login <emailID> --conn-password <email-pass> --conn-port <port-num>
 
 ## Defining Mysql Connection
-airflow connections add <mysql_conn_name> --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
+airflow connections add guru_mysql --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
 ```
 
 In order to start the Airflow instance (according to the instructions at [Airflow](https://airflow.apache.org/docs/apache-airflow/2.5.3/start.html)), we need to open 2 terminal windows (these can be 2 separate tabs).
