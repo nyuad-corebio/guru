@@ -55,7 +55,7 @@ def generate_email_task(ds, **kwargs):
                  f"Run Path:- {scratch_dir}/Unaligned\n"
                  "MultiQC Summary report is attached.\n\n"
                  "\n"
-                 "Regards\n"
+                 "Regards\n")
     attachments = [(file_path_file, file_obj)]
 
     # Set the SMTP Connection ID
@@ -99,7 +99,7 @@ def email_jira_ticket_success(context):
                  f"{scratch_dir}/Unaligned/\n"
                  "{code}"
                  "\n"
-                 "Regards,\n"
+                 "Regards,\n")
     jira_client.add_comment(jira_ticket, comment)
 
     #Define the variables for jira attachment

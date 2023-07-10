@@ -25,7 +25,7 @@ def generate_email_task(ds, **kwargs):
                  "For any further inquiries regarding this run, or for further downstream analysis please contact a member of the Core Bioinformatics Team at nyuad.cgsb.cb@nyu.edu \n"
                  "Note that this is an automated message please do not respond to this email as it is not monitored.\n"
                  "\n"
-                 "Regards\n"
+                 "Regards\n")
 
     # Set the SMTP Connection ID
     smtp_conn_id = 'airflow_docker_email'  

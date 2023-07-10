@@ -24,7 +24,7 @@ def generate_email_task(ds, **kwargs):
                  "You will automatically be notified once the run has processed successfully.\n"
                  "Note that this is an automated message please do not respond to this email as it is not monitored.\n"
                  "\n"
-                 "Regards\n"
+                 "Regards\n")
 
     # Set the SMTP Connection ID
     smtp_conn_id = 'airflow_docker_email'  
