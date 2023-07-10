@@ -196,19 +196,7 @@ Initialize airflow db and this will create airflow.cfg in the AIRFLOW_HOME direc
 airflow db init
 ```
 
-Create user account named airflow with admin privileges.
-
-``` bash
-airflow users create \
---username airflow \
---password airflow \
---firstname <first-name> \
---lastname <lastname> \
---role Admin \
---email <specify-email>
-```
-
-Update the Airflow connection parameters for ssh, smtp and mysql.
+Update the Airflow connection parameters for ssh, smtp and mysql. Then excecute the script.
 
 Note:-
 - Modify the ssh key path, user credentails etc.
@@ -230,6 +218,18 @@ airflow connections add guru_email --conn-type email --conn-host smtp.gmail.com 
 
 ## Defining Mysql Connection
 airflow connections add guru_mysql --conn-type mysql --conn-login <user> --conn-password <pass> --conn-host <hostname or IP address > --conn-port <port> --conn-schema <database name> --conn-extra '{"ssl_mode": "DISABLED"}'
+```
+
+Create user account named airflow with admin privileges.
+
+``` bash
+airflow users create \
+--username airflow \
+--password airflow \
+--firstname <first-name> \
+--lastname <lastname> \
+--role Admin \
+--email <specify-email>
 ```
 
 In order to start the Airflow instance (according to the instructions at [Airflow](https://airflow.apache.org/docs/apache-airflow/2.5.3/start.html)), we need to open 2 terminal windows (these can be 2 separate tabs).
