@@ -1,0 +1,21 @@
+Below command create in the pwd/backup directory.
+$mkdir /backup
+$docker run --rm -v guru_postgres-db-volume:/volume -v $(pwd)/backup:/backup alpine tar -czvf /backup/backup.tar.gz -C /volume .
+
+To import volume backup
+$docker volume create guru_postgres-db-volume
+$docker run --rm -v guru_postgres-db-volume:/volume -v /home/jr5241/guru:/backup alpine sh -c "tar -xzvf /backup/backup.tar.gz -C /volume --strip-components=1"
+
+
+Then modify the docker_compose.yaml file
+
++++++++++++++
+volumes:
+      - guru_postgres-db-volume:/var/lib/postgresql/data
+
+Then go to last
+
+volumes:
+  guru_postgres-db-volume:
+    external: true
+++++++++++++++
