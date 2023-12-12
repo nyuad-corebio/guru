@@ -175,6 +175,7 @@ export OAUTH_TOKEN_SECRET=<token_secret>
 
 
 Install the prerequisite python packages using commands below.
+Note:- Python >= 3.11
 
 ``` bash
 pip3 install -r pip-requirements.txt

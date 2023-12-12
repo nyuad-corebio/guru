@@ -20,3 +20,5 @@ Flask-WTF
 pandas
 jira==3.2.0
 pymysql 
+mysqlclient==2.1.1
+mysql-connector-python==8.0.32
